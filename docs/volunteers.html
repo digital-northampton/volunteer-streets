@@ -3,10 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Northamptonshire Streets</title>
+    <title>Northamptonshire Volunteers</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="volunteers.css"/>
   </head>
   <body>
     <!--[if lt IE 8]>
@@ -22,10 +24,17 @@
         <span class="glyphicon glyphicon-download"></span>
         download .csv
       </button>
-      <h1>streets</h1>
-      <table id="streets" class="table">
+      <h1>Volunteers</h1>
+      <table class="table table-condensed" id="volunteers">
+        <thead>
+          <tr>
+            <th>Postcode</th>
+          </tr>
+        </thead>
         <tbody></tbody>
+
       </table>
+
     </div>
     
     <script
@@ -34,6 +43,6 @@
       crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/table2csv@1.1.4/dist/table2csv.min.js"></script>
-    <script src="streets.js"></script>
+    <script src="volunteers.js"></script>
   </body>
 </html>
