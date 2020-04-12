@@ -1,1 +1,1 @@
-{"id":"402050916","name":"Mountsteven Avenue"}
+{"id":"402050916","name":"Mountsteven Avenue","nodes":[{"type":"node","id":4044832093,"lat":52.6039102,"lon":-0.2694895,"tags":{"crossing":"island","highway":"crossing","kerb":"lowered","sloped_curb":"yes"}},{"type":"node","id":4044832095,"lat":52.6039048,"lon":-0.2696913},{"type":"node","id":4044832096,"lat":52.6039033,"lon":-0.269319}]}
