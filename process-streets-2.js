@@ -87,7 +87,7 @@ const makeVolunteerData = () => {
     console.log ("writing colunteers")
 
     volunteer_data.forEach ((v,i) => {
-      const stub = v.postcode.toLowerCase ().replace (/ /g, "-")
+      const stub = v.postcode.toUpperCase ().replace (/ /g, "-")
       const filename = volunteer_output_dir + stub + ".json"
       const output_file = fs.openSync (filename, 'w');
       const data = JSON.stringify (v)
