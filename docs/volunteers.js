@@ -5,22 +5,33 @@ var postcode = ""
 $ (document).ready (function () {
   var $table = $("table#volunteers")
   var $button = $("button#download")
+  var last_postcode = ""
 
   var numberWithCommas = function (x) {
     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
   }
 
   var addRow = function (volunteer) {
-    var html = ""
+    var title
 
-    var url = "volunteer.html?postcode=" + encodeURI (volunteer.postcode)
+    if (last_postcode == volunteer.postcode) {
+      title = ""
+    } else {
+      title = volunteer.postcode
+    }
 
-    html += "<tr>"
-    html += "<td><a href='"+url+"'>"+volunteer.postcode+"</a></td>"
-    html += "<td>"+volunteer.streets.length+" streets</td>"
-    html += "</tr>"
+    // for (var s = 0; s < volunteer.streets.length; s++) {
+    //   var html = ""
 
-    $table.find ("tbody").append (html)
+    //   var url = "volunteer.html?postcode=" + encodeURI (volunteer.postcode)
+
+    //   html += "<tr>"
+    //   html += "<td>"+title+"</a></td>"
+    //   html += "<td>"+volunteer.streets [s]+" streets</td>"
+    //   html += "</tr>"
+
+    //   $table.find ("tbody").append (html)
+    // }
   }
 
   $.getJSON (data_url, function (data) {    
