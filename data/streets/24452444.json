@@ -1,1 +1,1 @@
-{"id":"24452444","name":"Exeter Street"}
+{"id":"24452444","name":"Exeter Street","nodes":[{"type":"node","id":265762928,"lat":52.411074,"lon":-0.7220271},{"type":"node","id":265762970,"lat":52.4112795,"lon":-0.7199911,"tags":{"created_by":"JOSM"}},{"type":"node","id":265762972,"lat":52.4112287,"lon":-0.7205799,"tags":{"created_by":"JOSM"}},{"type":"node","id":265762974,"lat":52.4111678,"lon":-0.721194,"tags":{"created_by":"JOSM"}},{"type":"node","id":265762975,"lat":52.4110846,"lon":-0.7218246}]}
