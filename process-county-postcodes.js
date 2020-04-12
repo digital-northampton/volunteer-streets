@@ -41,6 +41,16 @@ const loadVolunteers = () => {
 const groupCountyPostcodes = () => {
   return new Promise ((resolve, reject) => {
     countycodes_grouped = countycodes.reduce ((accumulator, currentValue) => {
+      const key = currentValue.Postcode.split (" ")[0]
+
+      if (accumulator[key] == undefined) {
+        accumulator[key] = {
+          "postcodes" : []
+        }
+      }
+
+      accumulator[key].postcodes.push (currentValue.Postcode)
+
       return accumulator
     }, {})
 
