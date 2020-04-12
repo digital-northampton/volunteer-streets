@@ -48,11 +48,16 @@ const loadStreetsJSON = () => {
 
 const makeStreetData = () => {
   return new Promise ((resolve, reject) => {
-    streets_data.forEach (s => {
+
+    streets_data.forEach ((s,i) => {
       const filename = streets_output_dir + s.id + ".json"
       const output_file = fs.openSync (filename, 'w');
       const data = JSON.stringify (s)
       fs.writeFileSync (output_file, data);
+
+      const percent = Math.round (100*i/streets_data.length)
+      console.clear()
+      console.log (percent + "% Streets Written")
     })
     resolve ()
   })
