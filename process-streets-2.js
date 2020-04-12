@@ -18,14 +18,15 @@ const clearDirs = (directories) => {
         }
 
         for (const file of files) {
-          fs.unlink(path.join(directory, file), err => {
-            if (err) {
-              reject (err)     
-            }
-          });
+          if (file != ".gitignore") {
+            fs.unlink(path.join(directory, file), err => {
+              if (err) {
+                reject (err)     
+              }
+            });
+          }
         }
-      });      
-
+      });
     })
 
     resolve ()
