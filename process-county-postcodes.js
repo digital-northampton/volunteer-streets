@@ -8,6 +8,7 @@ const volunteers_path = "data/volunteers.json"
 
 let volunteers
 let countycodes
+let countycodes_grouped
 
 const loadCountyPostcodes = () => {
   return new Promise ((resolve, reject) => {
@@ -31,12 +32,25 @@ const loadVolunteers = () => {
           reject (error);
         } else {
           volunteers = JSON.parse (data)
+          resolve ()
         }
     });
   })
 }
 
+const groupCountyPostcodes = () => {
+  return new Promise ((resolve, reject) => {
+    countycodes_grouped = countycodes.reduce ((accumulator, currentValue) => {
+      return accumulator
+    }, {})
+
+    console.log (countycodes_grouped)
+    resolve ()
+  })
+}
+
 loadCountyPostcodes ()
   .then (loadVolunteers)
+  .then (groupCountyPostcodes)
   .then (() => console.log ("🔥"))
   .catch (e => console.log (e))
