@@ -1,1 +1,1 @@
-{"id":"32524330","name":"Dryden's Close"}
+{"id":"32524330","name":"Dryden's Close","nodes":[{"type":"node","id":365752325,"lat":52.4059848,"lon":-0.4984838},{"type":"node","id":365752334,"lat":52.4054007,"lon":-0.5002212},{"type":"node","id":365752336,"lat":52.4060391,"lon":-0.5000762},{"type":"node","id":365752340,"lat":52.4060975,"lon":-0.5000082,"tags":{"highway":"turning_circle","source":"survey"}},{"type":"node","id":365752341,"lat":52.4061125,"lon":-0.4998987}]}
