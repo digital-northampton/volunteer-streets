@@ -1,1 +1,1 @@
-{"id":"8660422","name":"Kingshill Drive"}
+{"id":"8660422","name":"Kingshill Drive","nodes":[{"type":"node","id":61806235,"lat":52.0541881,"lon":-0.8862893},{"type":"node","id":61806251,"lat":52.0537209,"lon":-0.8862861},{"type":"node","id":61806254,"lat":52.0538046,"lon":-0.8863153,"tags":{"created_by":"JOSM"}},{"type":"node","id":64789654,"lat":52.0541334,"lon":-0.8862817,"tags":{"created_by":"JOSM"}},{"type":"node","id":64789657,"lat":52.0538682,"lon":-0.8863272},{"type":"node","id":1255299292,"lat":52.0540129,"lon":-0.8862875}]}

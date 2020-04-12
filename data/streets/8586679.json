@@ -1,1 +1,1 @@
-{"id":"8586679","name":"Padholme Road"}
+{"id":"8586679","name":"Padholme Road","nodes":[{"type":"node","id":29943724,"lat":52.578585,"lon":-0.2281441,"tags":{"highway":"traffic_signals"}},{"type":"node","id":60947249,"lat":52.5784055,"lon":-0.2271343},{"type":"node","id":60947250,"lat":52.5779714,"lon":-0.2248333},{"type":"node","id":60947251,"lat":52.5775848,"lon":-0.2226186},{"type":"node","id":1211818648,"lat":52.5782672,"lon":-0.2264049},{"type":"node","id":1683391176,"lat":52.5775728,"lon":-0.2226866},{"type":"node","id":1683391187,"lat":52.5775812,"lon":-0.222775}]}

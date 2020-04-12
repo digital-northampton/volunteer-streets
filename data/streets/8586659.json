@@ -1,1 +1,1 @@
-{"id":"8586659","name":"Park Lane"}
+{"id":"8586659","name":"Park Lane","nodes":[{"type":"node","id":60947255,"lat":52.5801285,"lon":-0.2254239},{"type":"node","id":60947256,"lat":52.5792066,"lon":-0.2263354},{"type":"node","id":60947257,"lat":52.5821579,"lon":-0.2234287},{"type":"node","id":60947258,"lat":52.5819052,"lon":-0.2236444,"tags":{"created_by":"JOSM"}},{"type":"node","id":263896436,"lat":52.580559,"lon":-0.2249704,"tags":{"created_by":"JOSM"}},{"type":"node","id":7049790932,"lat":52.5794059,"lon":-0.2261384}]}

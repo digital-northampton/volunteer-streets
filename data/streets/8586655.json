@@ -1,1 +1,1 @@
-{"id":"8586655","name":"Flag Fen Road"}
+{"id":"8586655","name":"Flag Fen Road","nodes":[{"type":"node","id":60947242,"lat":52.5817397,"lon":-0.2279476},{"type":"node","id":60947269,"lat":52.5811222,"lon":-0.2259062,"tags":{"highway":"mini_roundabout"}},{"type":"node","id":2027584565,"lat":52.5813534,"lon":-0.2266696}]}
