@@ -20,3 +20,21 @@ area[name="Northamptonshire"];
 way(area)[highway][name];
 out;
 ```
+
+Get all the ways within a bounding box
+
+```
+way(50.746,7.154,50.748,7.157);
+/*added by auto repair*/
+(._;>;);
+/*end of auto repair*/
+out body;
+```
+
+Get way by ID
+
+```
+way(787869930);
+(._;>;);
+out body;
+```
