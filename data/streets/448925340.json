@@ -1,1 +1,1 @@
-{"id":"448925340","name":"Windsor Avenue"}
+{"id":"448925340","name":"Windsor Avenue","nodes":[{"type":"node","id":2423975530,"lat":52.6022708,"lon":-0.2687735},{"type":"node","id":2423975533,"lat":52.6027123,"lon":-0.2681135},{"type":"node","id":2423978456,"lat":52.602395,"lon":-0.2685813},{"type":"node","id":3761643246,"lat":52.6026724,"lon":-0.2681749,"tags":{"crossing":"unmarked","highway":"crossing","kerb":"lowered"}},{"type":"node","id":3761682177,"lat":52.6026571,"lon":-0.2681948},{"type":"node","id":4458961639,"lat":52.6020746,"lon":-0.269062}]}

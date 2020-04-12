@@ -1,1 +1,1 @@
-{"id":"4489349","name":"Hacke Road"}
+{"id":"4489349","name":"Hacke Road","nodes":[{"type":"node","id":26406241,"lat":52.5798788,"lon":-0.2611469},{"type":"node","id":26406242,"lat":52.5798921,"lon":-0.2619283,"tags":{"highway":"turning_circle"}}]}
