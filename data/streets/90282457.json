@@ -1,1 +1,1 @@
-{"id":"90282457","name":"Board Street"}
+{"id":"90282457","name":"Board Street","nodes":[{"type":"node","id":1046625273,"lat":52.3259044,"lon":-0.6135923},{"type":"node","id":1046906092,"lat":52.3261346,"lon":-0.6142477},{"type":"node","id":1046906495,"lat":52.3263332,"lon":-0.6147309,"tags":{"traffic_calming":"table"}},{"type":"node","id":1238956422,"lat":52.3261928,"lon":-0.6143893,"tags":{"traffic_calming":"hump"}},{"type":"node","id":1238956771,"lat":52.3260329,"lon":-0.613985,"tags":{"traffic_calming":"hump"}}]}

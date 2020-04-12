@@ -1,1 +1,1 @@
-{"id":"90279475","name":"The Close"}
+{"id":"90279475","name":"The Close","nodes":[{"type":"node","id":1046624641,"lat":52.3243151,"lon":-0.6130927},{"type":"node","id":1046833205,"lat":52.3239396,"lon":-0.6132035,"tags":{"highway":"turning_circle","source":"bing"}},{"type":"node","id":1046833278,"lat":52.3240698,"lon":-0.6130642},{"type":"node","id":1046833291,"lat":52.3240122,"lon":-0.613097},{"type":"node","id":1046833325,"lat":52.3241273,"lon":-0.6130602}]}
