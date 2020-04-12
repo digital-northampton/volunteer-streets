@@ -1,1 +1,1 @@
-{"id":"97824723","name":"Capell Gardens"}
+{"id":"97824723","name":"Capell Gardens","nodes":[{"type":"node","id":707265276,"lat":52.4827206,"lon":-0.7036123},{"type":"node","id":1132338036,"lat":52.4828138,"lon":-0.7018133,"tags":{"highway":"turning_circle"}},{"type":"node","id":1132338475,"lat":52.4827138,"lon":-0.7032532},{"type":"node","id":1132338659,"lat":52.4827564,"lon":-0.7027395},{"type":"node","id":4230661255,"lat":52.4827127,"lon":-0.7034549}]}
