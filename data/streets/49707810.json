@@ -1,1 +1,1 @@
-{"id":"49707810","name":"Hazel Copse"}
+{"id":"49707810","name":"Hazel Copse","nodes":[{"type":"node","id":631790179,"lat":52.1830808,"lon":-0.879105,"tags":{"highway":"mini_roundabout"}},{"type":"node","id":631790201,"lat":52.1829514,"lon":-0.8812142},{"type":"node","id":631790224,"lat":52.1829494,"lon":-0.8800972},{"type":"node","id":2262746248,"lat":52.1829445,"lon":-0.8803808,"tags":{"traffic_calming":"yes"}},{"type":"node","id":2262825854,"lat":52.182981,"lon":-0.8797441}]}
