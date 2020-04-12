@@ -8,6 +8,13 @@ const volunteer_data_path = "docs/volunteers.json"
 
 let ids
 let volunteers
+let new_volunteers = []
+
+Array.prototype.unique = function() {
+  return this.filter(function (value, index, self) { 
+    return self.indexOf(value) === index;
+  });
+}
 
 const loadVolunteers = () => {
   return new Promise ((resolve, reject) => {
@@ -23,10 +30,10 @@ const setVolunteerStreets = () => {
       const filename = volunteers_data_dir + volunter.postcode.toUpperCase ().replace (" ", "-") + ".json"
       const rawdata = fs.readFileSync (filename)
       const volunterData = JSON.parse (rawdata)
-      volunteers[index].streets = volunterData.streets
+
+      volunteers[index].streets = volunterData.streets.map (s => s.name).unique ().sort ()
     })
 
-    
     const data = JSON.stringify (volunteers)
     fs.writeFileSync (volunteer_data_path, data);
     
