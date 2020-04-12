@@ -6,6 +6,7 @@ const parser = require('xml2json');
 const streets_data_path = "data/streets.xml"
 
 let streets_data
+let streets = []
 
 const loadStreetsXML = () => {
   return new Promise ((resolve, reject) => {
@@ -20,10 +21,24 @@ const loadStreetsXML = () => {
   })
 }
 
-const outputStreetJson = () => {
+const filterStreetData = () => {
   return new Promise ((resolve, reject) => {
 
-    const streets = streets_data.map (s => s)
+    streets = streets_data.map (way => {
+
+      const highway = way.tag.find (t => t.k == "highway")
+      const name = way.tag.find (t => t.k == "name")
+      const ref = way.tag.find (t => t.k == "ref")
+
+      return {
+        id: way.id,
+        highway:highway == undefined ? "": highway.v,
+        name:name == undefined ? "": name.v,
+        ref:ref == undefined ? "": ref.v,
+      }
+    }, [])
+
+    // const streets = streets_data.map (s => s)
     
     console.log (streets)
 
@@ -32,7 +47,7 @@ const outputStreetJson = () => {
 }
 
 loadStreetsXML ()
-  .then (outputStreetJson)
+  .then (filterStreetData)
   .then (() => console.log ("🔥"))
   .catch (e => console.log (e))
 
