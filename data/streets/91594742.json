@@ -1,1 +1,1 @@
-{"id":"91594742","name":"Craig Street"}
+{"id":"91594742","name":"Craig Street","nodes":[{"type":"node","id":1064199711,"lat":52.5775183,"lon":-0.2436457},{"type":"node","id":1064199713,"lat":52.5781507,"lon":-0.2459447,"tags":{"highway":"turning_circle"}},{"type":"node","id":1064199715,"lat":52.5775986,"lon":-0.2439465},{"type":"node","id":2441356431,"lat":52.5778617,"lon":-0.2448986}]}

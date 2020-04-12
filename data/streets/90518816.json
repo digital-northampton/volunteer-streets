@@ -1,1 +1,1 @@
-{"id":"90518816","name":"Bugby Way"}
+{"id":"90518816","name":"Bugby Way","nodes":[{"type":"node","id":1050141668,"lat":52.3476835,"lon":-0.5376694,"tags":{"highway":"turning_circle","source":"bing"}},{"type":"node","id":1050141700,"lat":52.3477222,"lon":-0.5376255}]}

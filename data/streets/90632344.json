@@ -1,1 +1,1 @@
-{"id":"90632344","name":"Ellison Close"}
+{"id":"90632344","name":"Ellison Close","nodes":[{"type":"node","id":1049894860,"lat":52.3492239,"lon":-0.5427998},{"type":"node","id":1051810892,"lat":52.3489933,"lon":-0.5428065},{"type":"node","id":1051810921,"lat":52.348904,"lon":-0.5428211},{"type":"node","id":1051810952,"lat":52.3486867,"lon":-0.5428601},{"type":"node","id":1051810999,"lat":52.3490975,"lon":-0.542826},{"type":"node","id":1051811105,"lat":52.348657,"lon":-0.5429429,"tags":{"highway":"turning_circle","source":"bing"}}]}

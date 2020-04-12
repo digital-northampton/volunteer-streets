@@ -1,1 +1,1 @@
-{"id":"91036098","name":"Burwood Road"}
+{"id":"91036098","name":"Burwood Road","nodes":[{"type":"node","id":729665048,"lat":52.2566863,"lon":-0.8625899},{"type":"node","id":775224701,"lat":52.2582191,"lon":-0.8643992},{"type":"node","id":1057137004,"lat":52.2585153,"lon":-0.864755,"tags":{"highway":"mini_roundabout"}}]}

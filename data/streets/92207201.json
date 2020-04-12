@@ -1,1 +1,1 @@
-{"id":"92207201","name":"Southgate Drive"}
+{"id":"92207201","name":"Southgate Drive","nodes":[{"type":"node","id":1070520622,"lat":52.3995709,"lon":-0.7100031},{"type":"node","id":1070520716,"lat":52.3971947,"lon":-0.710004,"tags":{"direction":"clockwise","highway":"mini_roundabout"}}]}

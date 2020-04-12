@@ -1,1 +1,1 @@
-{"id":"90876445","name":"Beech Avenue"}
+{"id":"90876445","name":"Beech Avenue","nodes":[{"type":"node","id":775224673,"lat":52.2570159,"lon":-0.8687505},{"type":"node","id":1055338682,"lat":52.2563035,"lon":-0.8681689,"tags":{"highway":"mini_roundabout"}},{"type":"node","id":1057113486,"lat":52.2575639,"lon":-0.8691953},{"type":"node","id":1057113519,"lat":52.2576886,"lon":-0.8692802,"tags":{"highway":"mini_roundabout"}}]}

@@ -1,1 +1,1 @@
-{"id":"90632349","name":"Popham Close"}
+{"id":"90632349","name":"Popham Close","nodes":[{"type":"node","id":1051810866,"lat":52.3485498,"lon":-0.5418368,"tags":{"highway":"turning_circle","source":"bing"}},{"type":"node","id":1051811001,"lat":52.3485766,"lon":-0.5421292,"tags":{"highway":"turning_circle","source":"bing"}},{"type":"node","id":1051811085,"lat":52.3485766,"lon":-0.5419343}]}
