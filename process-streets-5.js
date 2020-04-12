@@ -53,6 +53,7 @@ const setVolunteerPostcodes = () => {
       console.log (index, volunteers.length)
     })
     
+    resolve ()
   })
 }
 
