@@ -1,1 +1,1 @@
-{"id":"54522223","name":"Knights Lane"}
+{"id":"54522223","name":"Knights Lane","nodes":[{"type":"node","id":686730996,"lat":52.2619992,"lon":-0.9042472},{"type":"node","id":690384255,"lat":52.262317,"lon":-0.9047943},{"type":"node","id":4761046639,"lat":52.2620839,"lon":-0.904393,"tags":{"crossing":"marked","crossing:island":"no","crossing_ref":"zebra","highway":"crossing"}}]}
