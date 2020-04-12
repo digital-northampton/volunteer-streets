@@ -12,12 +12,12 @@ $ (document).ready (function () {
 
   var addRow = function (code, rowData) {
     var html = ""
-    var ppv
+    var hpv
 
     if (rowData.volunteers == 0) {
-      ppv = "No Volunteers"
+      hpv = "No Volunteers"
     } else {
-      ppv = Math.round (rowData.population/rowData.volunteers)
+      hpv = Math.round (rowData.households/rowData.volunteers)
     }
 
     html += "<tr>"
@@ -26,7 +26,7 @@ $ (document).ready (function () {
     html += "<td class='right'>"+numberWithCommas (rowData.households)+"</td>"
     html += "<td class='right'>"+numberWithCommas (rowData.population)+"</td>"
     html += "<td class='right'>"+numberWithCommas (rowData.volunteers)+"</td>"
-    html += "<td class='right'>"+ppv+"</td>"
+    html += "<td class='right'>"+numberWithCommas (hpv)+"</td>"
     html += "/<tr>"
 
     $table.find ("tbody").append (html)
