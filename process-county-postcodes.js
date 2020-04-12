@@ -45,11 +45,21 @@ const groupCountyPostcodes = () => {
 
       if (accumulator[key] == undefined) {
         accumulator[key] = {
-          "postcodes" : []
+          // "postcodes" : [],
+          "population" : 0,
+          "households" : 0,
+          "areas" : [],
         }
       }
 
-      accumulator[key].postcodes.push (currentValue.Postcode)
+      accumulator[key].population += parseInt (currentValue.Population)
+      accumulator[key].households += parseInt (currentValue.Households)
+      const area = currentValue["Built Up Area"].trim ()
+      if (! accumulator[key].areas.includes (area) && area != "") {
+        accumulator[key].areas.push (area)
+      }
+      
+      // accumulator[key].postcodes.push (currentValue)
 
       return accumulator
     }, {})
