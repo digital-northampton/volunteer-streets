@@ -22,7 +22,6 @@ const getIDs = () => {
             .map (f => f.replace (".json", ""))
             .map (f => parseInt (f))
     
-    console.log (ids)
     resolve ()
   })
 }
