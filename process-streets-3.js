@@ -11,7 +11,7 @@ const request_data = "[out:json];way(ID);(._;>;);out body;"
 let ids
 let empty_ids = []
 let index = 0
-let batch_size = 500
+let batch_size = 50
 
 const getIDs = () => {
   return new Promise ((resolve, reject) => {
