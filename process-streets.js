@@ -4,6 +4,7 @@ const fs = require ('fs')
 const parser = require('xml2json');
 
 const streets_data_path = "data/streets.xml"
+const output_path = "docs/streets.json"
 
 let streets_data
 let streets = []
@@ -62,7 +63,15 @@ const filterStreetData = () => {
                   return s
                 })
     
-    console.log (streets)
+    resolve ()
+  })
+}
+
+const outputStreetData = () => {
+  return new Promise ((resolve, reject) => {
+    const output_file = fs.openSync (output_path, 'w');
+    const data = JSON.stringify (streets)
+    fs.writeFileSync (output_file, data);
     resolve ()
   })
 }
@@ -70,6 +79,7 @@ const filterStreetData = () => {
 loadStreetsXML ()
   .then (formatStreetData)
   .then (filterStreetData)
+  .then (outputStreetData)
   .then (() => console.log ("🔥"))
   .catch (e => console.log (e))
 
