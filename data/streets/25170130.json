@@ -1,1 +1,1 @@
-{"id":"25170130","name":"Priors Gate"}
+{"id":"25170130","name":"Priors Gate","nodes":[{"type":"node","id":274374257,"lat":52.6177532,"lon":-0.2842145},{"type":"node","id":274374285,"lat":52.617577,"lon":-0.2845364},{"type":"node","id":1622011314,"lat":52.6176215,"lon":-0.2844551,"tags":{"crossing":"unmarked","highway":"crossing","kerb":"lowered","sloped_curb":"yes"}},{"type":"node","id":6354036921,"lat":52.6176107,"lon":-0.2844749}]}
