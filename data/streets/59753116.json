@@ -1,1 +1,1 @@
-{"id":"59753116","name":"St Andrew's Street"}
+{"id":"59753116","name":"St Andrew's Street","nodes":[{"type":"node","id":741631681,"lat":52.2398684,"lon":-0.900243,"tags":{"highway":"traffic_signals","traffic_signals":"signal"}},{"type":"node","id":741631684,"lat":52.2402656,"lon":-0.9004298},{"type":"node","id":1041665610,"lat":52.240066,"lon":-0.9003008},{"type":"node","id":5137721591,"lat":52.2401672,"lon":-0.9003662}]}

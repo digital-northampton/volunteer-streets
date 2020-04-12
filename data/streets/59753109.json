@@ -1,1 +1,1 @@
-{"id":"59753109","name":"Sheep Street"}
+{"id":"59753109","name":"Sheep Street","nodes":[{"type":"node","id":734104110,"lat":52.2408246,"lon":-0.8981727,"tags":{"source":"OS_OpenData_StreetView"}},{"type":"node","id":741631572,"lat":52.2399773,"lon":-0.8979423,"tags":{"highway":"traffic_signals"}},{"type":"node","id":741631579,"lat":52.2402826,"lon":-0.8979822},{"type":"node","id":741631580,"lat":52.2407743,"lon":-0.8982009},{"type":"node","id":4706276121,"lat":52.2400568,"lon":-0.8979611}]}
