@@ -12,36 +12,27 @@ $ (document).ready (function () {
   }
 
   var addRow = function (volunteer) {
-    var title
+    for (var s = 0; s < volunteer.streets.length; s++) {
+      var html = ""
 
-    if (last_postcode == volunteer.postcode) {
-      title = ""
-    } else {
-      title = volunteer.postcode
+      var url = "volunteer.html?postcode=" + encodeURI (volunteer.postcode)
+
+      html += "<tr>"
+      html += "<td>"+volunteer.postcode+"</a></td>"
+      html += "<td>"+volunteer.streets [s]+"</td>"
+      html += "</tr>"
+
+      $table.find ("tbody").append (html)
     }
-
-    // for (var s = 0; s < volunteer.streets.length; s++) {
-    //   var html = ""
-
-    //   var url = "volunteer.html?postcode=" + encodeURI (volunteer.postcode)
-
-    //   html += "<tr>"
-    //   html += "<td>"+title+"</a></td>"
-    //   html += "<td>"+volunteer.streets [s]+" streets</td>"
-    //   html += "</tr>"
-
-    //   $table.find ("tbody").append (html)
-    // }
   }
 
-  $.getJSON (data_url, function (data) {    
-    console.log (data)
+  $.getJSON (data_url, function (data) {
     data.forEach (volunteer => {
       addRow (volunteer)
     })
   })
 
   $button.bind ("click", function () {
-    $table.first().table2csv({filename: 'postcodes.csv'});
+    $table.first().table2csv({filename: 'volunteers.csv'});
   })
 }) 
