@@ -1,1 +1,1 @@
-{"id":"30956893","name":"Barry Road"}
+{"id":"30956893","name":"Barry Road","nodes":[{"type":"node","id":344222013,"lat":52.2390717,"lon":-0.8720895},{"type":"node","id":344222019,"lat":52.2427755,"lon":-0.8739331},{"type":"node","id":344222121,"lat":52.2417972,"lon":-0.8734489},{"type":"node","id":4096298799,"lat":52.2394705,"lon":-0.8722884},{"type":"node","id":4096298803,"lat":52.2413869,"lon":-0.8732443},{"type":"node","id":6205314185,"lat":52.2424969,"lon":-0.8737952,"tags":{"crossing":"zebra","highway":"crossing"}}]}

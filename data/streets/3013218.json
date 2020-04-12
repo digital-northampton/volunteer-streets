@@ -1,1 +1,1 @@
-{"id":"3013218","name":"Dale Street"}
+{"id":"3013218","name":"Dale Street","nodes":[{"type":"node","id":14310683,"lat":52.2990069,"lon":-0.7036813,"tags":{"note":"T junction onto Croyland road","source":"GPS waypoint","upload_tag":"ojw_02"}},{"type":"node","id":14319946,"lat":52.2992503,"lon":-0.7032125},{"type":"node","id":14320191,"lat":52.2995886,"lon":-0.7025311},{"type":"node","id":14320193,"lat":52.2998134,"lon":-0.7020837}]}

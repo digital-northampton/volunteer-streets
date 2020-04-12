@@ -1,1 +1,1 @@
-{"id":"28492824","name":"New South Bridge Road"}
+{"id":"28492824","name":"New South Bridge Road","nodes":[{"type":"node","id":3703887,"lat":52.2295629,"lon":-0.8962848,"tags":{"highway":"traffic_signals"}},{"type":"node","id":313023280,"lat":52.2296284,"lon":-0.8955238},{"type":"node","id":313023281,"lat":52.2297086,"lon":-0.8950773},{"type":"node","id":313023283,"lat":52.2298826,"lon":-0.8945708}]}
