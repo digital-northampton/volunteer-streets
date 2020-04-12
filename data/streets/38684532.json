@@ -1,1 +1,1 @@
-{"id":"38684532","name":"Meadowdale Road"}
+{"id":"38684532","name":"Meadowdale Road","nodes":[{"type":"node","id":458239656,"lat":52.480712,"lon":-0.8990656},{"type":"node","id":458239657,"lat":52.4811393,"lon":-0.8987604},{"type":"node","id":458239666,"lat":52.4813121,"lon":-0.8985181,"tags":{"direction":"clockwise","highway":"mini_roundabout"}},{"type":"node","id":745283383,"lat":52.4812605,"lon":-0.8986194},{"type":"node","id":3483587913,"lat":52.4810036,"lon":-0.8988958},{"type":"node","id":7208611451,"lat":52.4807461,"lon":-0.8990458}]}
