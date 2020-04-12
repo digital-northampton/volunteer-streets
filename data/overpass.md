@@ -31,10 +31,8 @@ way(50.746,7.154,50.748,7.157);
 out body;
 ```
 
-Get way by ID
+Get way by ID as JSON
 
 ```
-way(787869930);
-(._;>;);
-out body;
+[out:json];way(787869930);(._;>;);out body;
 ```
