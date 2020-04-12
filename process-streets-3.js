@@ -9,7 +9,7 @@ const request_url = "https://www.overpass-api.de/api/interpreter"
 const request_data = "[out:json];way(ID);(._;>;);out body;"
 
 let ids
-let index = 1970
+let index = 2578
 
 const getIDs = () => {
   return new Promise ((resolve, reject) => {
@@ -36,9 +36,7 @@ const getStreetNodes = () => {
 
 
     if (street.nodes !== undefined) {
-      process.stdout.clearLine();
-      process.stdout.cursorTo(0);
-      process.stdout.write(percent + '% Streets');
+      console.log (percent + '% Streets:' + index);
       
       index++
       if (ids [index] == undefined) {
@@ -46,7 +44,6 @@ const getStreetNodes = () => {
         return;
       }
 
-      console.log (index)
       getStreetNodes ()
         .catch (err => reject (err))
     } else {
