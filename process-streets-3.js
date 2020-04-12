@@ -9,7 +9,7 @@ const request_url = "https://www.overpass-api.de/api/interpreter"
 const request_data = "[out:json];way(ID);(._;>;);out body;"
 
 let ids
-let index = 0
+let index = 1970
 
 const getIDs = () => {
   return new Promise ((resolve, reject) => {
@@ -29,46 +29,63 @@ const getStreetNodes = () => {
     const id = ids[index]
     const url = request_url + "?data=" + request_data.replace ("ID", id)
 
-    https.get (url, (resp) => {
-      let data = '';
+    const filename = street_data_dir + id + ".json"
+    const rawdata = fs.readFileSync (filename)
+    const street = JSON.parse (rawdata)
+    const percent = Math.round (100*index/ids.length)
 
-      resp.on('data', (chunk) => {
-        data += chunk;
+
+    if (street.nodes !== undefined) {
+      process.stdout.clearLine();
+      process.stdout.cursorTo(0);
+      process.stdout.write(percent + '% Streets');
+      
+      index++
+      if (ids [index] == undefined) {
+        resolve ()
+        return;
+      }
+
+      console.log (index)
+      getStreetNodes ()
+        .catch (err => reject (err))
+    } else {
+
+      https.get (url, (resp) => {
+        let data = '';
+
+        resp.on('data', (chunk) => {
+          data += chunk;
+        });
+
+        resp.on('end', () => {
+          const nodes = JSON.parse (data).elements.filter (n => n.type == 'node')
+          street.nodes = nodes
+          const output_file = fs.openSync (filename, 'w')
+          fs.writeFileSync (output_file, JSON.stringify (street))
+
+          process.stdout.clearLine();
+          process.stdout.cursorTo(0);
+          process.stdout.write(percent + '% Streets');
+          
+          index++
+          if (ids [index] == undefined) {
+            resolve ()
+            return;
+          }
+
+          getStreetNodes ()
+            .catch (() => reject ())
+        });
+      }).on("error", (err) => {
+        reject ("Error: " + err.message);
       });
-
-      resp.on('end', () => {
-        const nodes = JSON.parse (data).elements.filter (n => n.type == 'node')
-        const percent = Math.round (100*index/ids.length)
-
-        const filename = street_data_dir + id + ".json"
-
-        const rawdata = fs.readFileSync (filename)
-        const street = JSON.parse (rawdata)
-        street.nodes = nodes
-        const output_file = fs.openSync (filename, 'w')
-        fs.writeFileSync (output_file, JSON.stringify (street))
-
-        process.stdout.clearLine();
-        process.stdout.cursorTo(0);
-        process.stdout.write(percent + '% Streets');
-        
-        index++
-        if (ids [index] == undefined) {
-          resolve ()
-          return;
-        }
-
-        getStreetNodes ()
-          .catch (() => reject ())
-      });
-    }).on("error", (err) => {
-      reject ("Error: " + err.message);
-    });
+    }
   })
 }
 
 getIDs ()
   .then (getStreetNodes)
   .then (() => console.log ("🔥"))
-  .catch (e => console.log (e))
+  .catch (e => console.log (e, index))
 
