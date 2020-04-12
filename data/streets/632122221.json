@@ -1,1 +1,1 @@
-{"id":"632122221","name":"Winterton"}
+{"id":"632122221","name":"Winterton","nodes":[{"type":"node","id":3753034030,"lat":52.605594,"lon":-0.2397983},{"type":"node","id":5968552332,"lat":52.6058585,"lon":-0.2399921,"tags":{"highway":"traffic_mirror"}},{"type":"node","id":5968552333,"lat":52.605865,"lon":-0.2401209},{"type":"node","id":5968552334,"lat":52.6056988,"lon":-0.2406305}]}

@@ -1,1 +1,1 @@
-{"id":"668945298","name":"Church Street"}
+{"id":"668945298","name":"Church Street","nodes":[{"type":"node","id":25421569,"lat":52.1765978,"lon":-1.2446748},{"type":"node","id":1332266917,"lat":52.176652,"lon":-1.2447923},{"type":"node","id":1332266942,"lat":52.1767046,"lon":-1.2450374,"tags":{"direction":"clockwise","highway":"mini_roundabout"}},{"type":"node","id":1332266944,"lat":52.1766816,"lon":-1.2448673}]}
