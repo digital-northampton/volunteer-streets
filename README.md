@@ -29,4 +29,5 @@ Volunteer data came from the Digital Northampton `volunteer-map` repo.
 npm install;
 node process-county-postcodes.js; # Build postcode summary table
 node process-streets.js;
+node process-streets-2.js;
 ```
