@@ -45,7 +45,7 @@ const groupCountyPostcodes = () => {
 
       if (accumulator[key] == undefined) {
         accumulator[key] = {
-          // "postcodes" : [],
+          "postcodes" : [],
           "population" : 0,
           "households" : 0,
           "areas" : [],
@@ -59,12 +59,11 @@ const groupCountyPostcodes = () => {
         accumulator[key].areas.push (area)
       }
       
-      // accumulator[key].postcodes.push (currentValue)
+      accumulator[key].postcodes.push (currentValue)
 
       return accumulator
     }, {})
 
-    console.log (countycodes_grouped)
     resolve ()
   })
 }
