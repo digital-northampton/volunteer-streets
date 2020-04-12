@@ -3,7 +3,8 @@
 var data_url = "https://digital-northampton.github.io/volunteer-streets/codes.json"
 
 $ (document).ready (function () {
-  var $table = $("table#codes tbody")
+  var $table = $("table#codes")
+  var $button = $("button#download")
 
   var numberWithCommas = function (x) {
     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
@@ -28,12 +29,16 @@ $ (document).ready (function () {
     html += "<td class='right'>"+ppv+"</td>"
     html += "/<tr>"
 
-    $table.append (html)
+    $table.find ("tbody").append (html)
   }
 
   $.getJSON (data_url, function (data) {
     for (var code in data) {
       addRow (code, data[code])
     }
+  })
+
+  $button.bind ("click", function () {
+    $table.first().table2csv({filename: 'postcodes.csv'});
   })
 }) 
