@@ -64,6 +64,8 @@ const loadVolunteerJSON = () => {
 const makeStreetData = () => {
   return new Promise ((resolve, reject) => {
 
+    console.log ("writing streets")
+
     streets_data.forEach ((s,i) => {
       const filename = streets_output_dir + s.id + ".json"
       const output_file = fs.openSync (filename, 'w');
@@ -71,8 +73,30 @@ const makeStreetData = () => {
       fs.writeFileSync (output_file, data);
 
       const percent = Math.round (100*i/streets_data.length)
-      console.clear()
-      console.log (percent + "% Streets Written")
+      process.stdout.clearLine();
+      process.stdout.cursorTo(0);
+      process.stdout.write(percent + '% Streets');
+    })
+    resolve ()
+  })
+}
+
+const makeVolunteerData = () => {
+  return new Promise ((resolve, reject) => {
+
+    console.log ("writing colunteers")
+
+    volunteer_data.forEach ((v,i) => {
+      const stub = v.postcode.toLowerCase ().replace (/ /g, "-")
+      const filename = volunteer_output_dir + stub + ".json"
+      const output_file = fs.openSync (filename, 'w');
+      const data = JSON.stringify (v)
+      fs.writeFileSync (output_file, data);
+
+      const percent = Math.round (100*i/volunteer_data.length)
+      process.stdout.clearLine();
+      process.stdout.cursorTo(0);
+      process.stdout.write(percent + '% Volunteers');
     })
     resolve ()
   })
@@ -81,8 +105,8 @@ const makeStreetData = () => {
 clearDirs ([streets_output_dir, volunteer_output_dir])
   .then (loadStreetsJSON)
   .then (loadVolunteerJSON)
-  // .then (makeStreetData)
-  // .then (makeVolunteerData)
+  .then (makeStreetData)
+  .then (makeVolunteerData)
   .then (() => console.log ("🔥"))
   .catch (e => console.log (e))
 
