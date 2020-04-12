@@ -4,7 +4,7 @@ const fs = require ('fs')
 const path = require ('path')
 const https = require ('https')
 
-const street_data_dir = "data/streets"
+const street_data_dir = "data/streets/"
 const request_url = "https://www.overpass-api.de/api/interpreter"
 const request_data = "[out:json];way(ID);(._;>;);out body;"
 
@@ -40,9 +40,17 @@ const getStreetNodes = () => {
       });
 
       resp.on('end', () => {
-        const ndoes = JSON.parse (data).elements.filter (n => n.type == 'node')
-        
+        const nodes = JSON.parse (data).elements.filter (n => n.type == 'node')
         const percent = Math.round (100*index/ids.length)
+
+        const filename = street_data_dir + id + ".json"
+
+        const rawdata = fs.readFileSync (filename)
+        const street = JSON.parse (rawdata)
+        street.nodes = nodes
+        const output_file = fs.openSync (filename, 'w')
+        fs.writeFileSync (output_file, JSON.stringify (street))
+
         process.stdout.clearLine();
         process.stdout.cursorTo(0);
         process.stdout.write(percent + '% Streets');
