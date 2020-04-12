@@ -29,21 +29,40 @@ const formatStreetData = () => {
       const highway = way.tag.find (t => t.k == "highway")
       const name = way.tag.find (t => t.k == "name")
       const ref = way.tag.find (t => t.k == "ref")
+      const abutters = way.tag.find (t => t.k == "abutters")
+      const street = {id: way.id}
 
-      return {
-        id: way.id,
-        highway:highway == undefined ? "": highway.v,
-        name:name == undefined ? "": name.v,
-        ref:ref == undefined ? "": ref.v,
+      if (highway != undefined) {
+        street.highway = highway.v
       }
+      if (name != undefined) {
+        street.name = name.v
+      }
+      if (ref != undefined) {
+        street.ref = ref.v
+      }
+      if (abutters != undefined) {
+        street.abutters = abutters.v
+      }
+
+      return street
     }, [])
 
     resolve ()
   })
 }
 
+const filterStreetData = () => {
+  return new Promise ((resolve, reject) => {
+
+    console.log (streets.length)
+    resolve ()
+  })
+}
+
 loadStreetsXML ()
   .then (formatStreetData)
+  .then (filterStreetData)
   .then (() => console.log ("🔥"))
   .catch (e => console.log (e))
 
