@@ -21,7 +21,7 @@ const getIDs = () => {
             .map (f => parseInt (f))
     
     //tmp
-    ids = ids.slice (0, 4)
+    ids = ids.slice (0, 2)
 
     resolve ()
   })
@@ -40,6 +40,8 @@ const getStreetNodes = () => {
       });
 
       resp.on('end', () => {
+        const ndoes = JSON.parse (data).elements.filter (n => n.type == 'node')
+        
         const percent = Math.round (100*index/ids.length)
         process.stdout.clearLine();
         process.stdout.cursorTo(0);
