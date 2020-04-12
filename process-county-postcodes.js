@@ -45,21 +45,23 @@ const groupCountyPostcodes = () => {
 
       if (accumulator[key] == undefined) {
         accumulator[key] = {
-          "postcodes" : [],
+          // "postcodes" : [],
           "population" : 0,
           "households" : 0,
-          "areas" : [],
+          "volunteers" : 0,
+          // "areas" : [],
         }
       }
 
       accumulator[key].population += parseInt (currentValue.Population)
       accumulator[key].households += parseInt (currentValue.Households)
-      const area = currentValue["Built Up Area"].trim ()
-      if (! accumulator[key].areas.includes (area) && area != "") {
-        accumulator[key].areas.push (area)
-      }
+
+      // const area = currentValue["Built Up Area"].trim ()
+      // if (! accumulator[key].areas.includes (area) && area != "") {
+      //   accumulator[key].areas.push (area)
+      // }
       
-      accumulator[key].postcodes.push (currentValue)
+      // accumulator[key].postcodes.push (currentValue)
 
       return accumulator
     }, {})
@@ -68,8 +70,21 @@ const groupCountyPostcodes = () => {
   })
 }
 
+const assignVolunteerCounts = () => {
+  return new Promise ((resolve, reject) => {
+    for (const key in countycodes_grouped) {
+      countycodes_grouped[key].volunteers = 1
+    }
+    resolve ()
+  })
+}
+
 loadCountyPostcodes ()
   .then (loadVolunteers)
   .then (groupCountyPostcodes)
+  .then (assignVolunteerCounts)
+  .then (() => console.log (countycodes_grouped))
   .then (() => console.log ("🔥"))
   .catch (e => console.log (e))
+
+
