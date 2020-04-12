@@ -13,14 +13,26 @@ const loadStreetsXML = () => {
       if (err) {
         reject (err)
       } else {
-        streets_data = parser.toJson (data)
+        streets_data = JSON.parse (parser.toJson (data)).osm.way
         resolve ()
       }
     })
   })
 }
 
+const outputStreetJson = () => {
+  return new Promise ((resolve, reject) => {
+
+    const streets = streets_data.map (s => s)
+    
+    console.log (streets)
+
+    resolve ()
+  })
+}
+
 loadStreetsXML ()
+  .then (outputStreetJson)
   .then (() => console.log ("🔥"))
   .catch (e => console.log (e))
 
