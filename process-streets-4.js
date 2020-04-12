@@ -58,8 +58,6 @@ const setPostcodes = () => {
 
 	  	const data = JSON.stringify (street)
       fs.writeFileSync (filename, data);
-      
-	  	console.log (index, ids.length)
   	})
 
   	resolve ()
