@@ -73,7 +73,13 @@ const groupCountyPostcodes = () => {
 const assignVolunteerCounts = () => {
   return new Promise ((resolve, reject) => {
     for (const key in countycodes_grouped) {
-      countycodes_grouped[key].volunteers = 1
+      const count = volunteers
+                      .map (v => v.postcode)
+                      .map (v => v.split (" ")[0])
+                      .filter (v => v.toUpperCase () == key.toUpperCase ())
+                      .length
+
+      countycodes_grouped [key].volunteers = count
     }
     resolve ()
   })
