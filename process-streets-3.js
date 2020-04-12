@@ -42,8 +42,6 @@ const filterIDs = () => {
       }
     }
 
-    console.log (empty_ids.length + " IDs")
-
     resolve ()
   })
 }
