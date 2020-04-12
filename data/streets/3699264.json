@@ -1,1 +1,1 @@
-{"id":"3699264","name":"Seaton Road"}
+{"id":"3699264","name":"Seaton Road","nodes":[{"type":"node","id":18336988,"lat":52.6480584,"lon":-0.4806868,"tags":{"traffic_calming":"table"}},{"type":"node","id":18336989,"lat":52.6480647,"lon":-0.4801021},{"type":"node","id":18337003,"lat":52.6481299,"lon":-0.4799063},{"type":"node","id":3173708663,"lat":52.6480622,"lon":-0.4803334}]}

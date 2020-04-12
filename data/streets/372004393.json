@@ -1,1 +1,1 @@
-{"id":"372004393","name":"Midland Road"}
+{"id":"372004393","name":"Midland Road","nodes":[{"type":"node","id":30854585,"lat":52.5724648,"lon":-0.2521825},{"type":"node","id":1530458470,"lat":52.5726305,"lon":-0.2524651},{"type":"node","id":3755454145,"lat":52.5725574,"lon":-0.2524004},{"type":"node","id":3755454146,"lat":52.5725191,"lon":-0.2523572},{"type":"node","id":3755454147,"lat":52.5724882,"lon":-0.2522802},{"type":"node","id":3775517242,"lat":52.572534,"lon":-0.252374,"tags":{"crossing:island":"yes","highway":"crossing","kerb":"lowered"}}]}

@@ -1,1 +1,1 @@
-{"id":"3750080","name":"New Road"}
+{"id":"3750080","name":"New Road","nodes":[{"type":"node","id":13882973,"lat":52.1686414,"lon":-1.1104457},{"type":"node","id":13882974,"lat":52.1686101,"lon":-1.1105611},{"type":"node","id":13882975,"lat":52.1687473,"lon":-1.1100938,"tags":{"created_by":"JOSM"}}]}
