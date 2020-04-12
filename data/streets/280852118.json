@@ -1,1 +1,1 @@
-{"id":"280852118","name":"Castle Street"}
+{"id":"280852118","name":"Castle Street","nodes":[{"type":"node","id":352731065,"lat":52.3006892,"lon":-0.6859694},{"type":"node","id":352731066,"lat":52.3012371,"lon":-0.6858914},{"type":"node","id":1037867138,"lat":52.3004825,"lon":-0.6859854,"tags":{"crossing_ref":"zebra","highway":"traffic_signals","source":"bing"}},{"type":"node","id":2848932080,"lat":52.3004208,"lon":-0.6859913},{"type":"node","id":2848932082,"lat":52.3004052,"lon":-0.6859926}]}

@@ -1,1 +1,1 @@
-{"id":"280852920","name":"Monks Way"}
+{"id":"280852920","name":"Monks Way","nodes":[{"type":"node","id":14310688,"lat":52.2974475,"lon":-0.6963583},{"type":"node","id":14320208,"lat":52.2971517,"lon":-0.6964573,"tags":{"direction":"clockwise","highway":"mini_roundabout","source":"bing"}},{"type":"node","id":14320212,"lat":52.2978855,"lon":-0.6962136},{"type":"node","id":1038708411,"lat":52.2981475,"lon":-0.6961347},{"type":"node","id":1038708472,"lat":52.2983092,"lon":-0.6961257},{"type":"node","id":2848947521,"lat":52.2983987,"lon":-0.6961416}]}
