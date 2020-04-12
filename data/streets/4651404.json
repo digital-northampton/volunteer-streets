@@ -1,1 +1,1 @@
-{"id":"4651404","name":"Bozeat Way"}
+{"id":"4651404","name":"Bozeat Way","nodes":[{"type":"node","id":29597101,"lat":52.5934885,"lon":-0.2705053},{"type":"node","id":29597105,"lat":52.5931537,"lon":-0.2716471},{"type":"node","id":29597107,"lat":52.5928842,"lon":-0.2718619},{"type":"node","id":29597109,"lat":52.5926629,"lon":-0.2725741},{"type":"node","id":29597111,"lat":52.5925827,"lon":-0.2727664,"tags":{"highway":"turning_circle","source":"Maxar-Premium"}}]}

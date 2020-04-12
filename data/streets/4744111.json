@@ -1,1 +1,1 @@
-{"id":"4744111","name":"Adams Road"}
+{"id":"4744111","name":"Adams Road","nodes":[{"type":"node","id":21560809,"lat":52.1699324,"lon":-1.2149656,"tags":{"highway":"turning_circle"}},{"type":"node","id":21560810,"lat":52.1700501,"lon":-1.2145501}]}
