@@ -21,7 +21,7 @@ const loadStreetsXML = () => {
   })
 }
 
-const filterStreetData = () => {
+const formatStreetData = () => {
   return new Promise ((resolve, reject) => {
 
     streets = streets_data.map (way => {
@@ -38,16 +38,12 @@ const filterStreetData = () => {
       }
     }, [])
 
-    // const streets = streets_data.map (s => s)
-    
-    console.log (streets)
-
     resolve ()
   })
 }
 
 loadStreetsXML ()
-  .then (filterStreetData)
+  .then (formatStreetData)
   .then (() => console.log ("🔥"))
   .catch (e => console.log (e))
 
