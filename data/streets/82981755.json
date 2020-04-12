@@ -1,1 +1,1 @@
-{"id":"82981755","name":"Pleydell Road"}
+{"id":"82981755","name":"Pleydell Road","nodes":[{"type":"node","id":682177160,"lat":52.2228587,"lon":-0.9019187,"tags":{"direction":"clockwise","highway":"mini_roundabout"}},{"type":"node","id":960242385,"lat":52.2216816,"lon":-0.902264}]}

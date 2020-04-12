@@ -1,1 +1,1 @@
-{"id":"77113443","name":"The Glades"}
+{"id":"77113443","name":"The Glades","nodes":[{"type":"node","id":908016693,"lat":52.1850467,"lon":-0.8814817,"tags":{"traffic_calming":"yes"}},{"type":"node","id":908018816,"lat":52.1840679,"lon":-0.8815007,"tags":{"highway":"turning_circle"}}]}

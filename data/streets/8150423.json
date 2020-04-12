@@ -1,1 +1,1 @@
-{"id":"8150423","name":"Outfield"}
+{"id":"8150423","name":"Outfield","nodes":[{"type":"node","id":29632561,"lat":52.6043938,"lon":-0.2836335},{"type":"node","id":29632562,"lat":52.6038938,"lon":-0.2834561},{"type":"node","id":155226690,"lat":52.6040469,"lon":-0.283491},{"type":"node","id":3068623434,"lat":52.604163,"lon":-0.2835392,"tags":{"crossing":"unmarked","highway":"crossing","kerb":"lowered","sloped_curb":"yes"}}]}

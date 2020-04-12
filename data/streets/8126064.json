@@ -1,1 +1,1 @@
-{"id":"8126064","name":"The Promenade"}
+{"id":"8126064","name":"The Promenade","nodes":[{"type":"node","id":14310706,"lat":52.306593,"lon":-0.7053221,"tags":{"source":"GPS waypoint","upload_tag":"ojw_02"}},{"type":"node","id":14310707,"lat":52.3079995,"lon":-0.7036935,"tags":{"source":"GPS waypoint","upload_tag":"ojw_02"}},{"type":"node","id":877759166,"lat":52.306698,"lon":-0.7054021},{"type":"node","id":877759229,"lat":52.3068123,"lon":-0.7053777},{"type":"node","id":879616237,"lat":52.3079585,"lon":-0.7038596}]}
