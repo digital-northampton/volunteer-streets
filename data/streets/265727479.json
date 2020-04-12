@@ -1,1 +1,1 @@
-{"id":"265727479","name":"Marholm Road"}
+{"id":"265727479","name":"Marholm Road","nodes":[{"type":"node","id":29539972,"lat":52.6071156,"lon":-0.2737836,"tags":{"traffic_calming":"choker"}},{"type":"node","id":2713432177,"lat":52.6063958,"lon":-0.2730835},{"type":"node","id":2713432178,"lat":52.6070655,"lon":-0.2737015},{"type":"node","id":2713432179,"lat":52.6069056,"lon":-0.2735002},{"type":"node","id":3582951894,"lat":52.6070001,"lon":-0.2736079}]}

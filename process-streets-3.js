@@ -9,7 +9,7 @@ const request_url = "https://www.overpass-api.de/api/interpreter"
 const request_data = "[out:json];way(ID);(._;>;);out body;"
 
 let ids
-let index = 2933
+let index = 2970
 
 const getIDs = () => {
   return new Promise ((resolve, reject) => {
