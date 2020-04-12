@@ -55,6 +55,10 @@ const setPostcodes = () => {
 	  	})
 
 	  	street.volunteer_postcode = closest_volunteer_postcode
+
+	  	const data = JSON.stringify (street)
+      fs.writeFileSync (filename, data);
+      
 	  	console.log (index, ids.length)
   	})
 
