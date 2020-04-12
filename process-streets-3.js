@@ -20,9 +20,6 @@ const getIDs = () => {
             .map (f => f.replace (".json", ""))
             .map (f => parseInt (f))
     
-    //tmp
-    ids = ids.slice (0, 2)
-
     resolve ()
   })
 }
