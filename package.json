@@ -17,9 +17,9 @@
   },
   "homepage": "https://github.com/digital-northampton/volunteer-streets#readme",
   "devDependencies": {
-    "fast-xml-parser": "^3.16.0",
     "neat-csv": "^5.2.0",
     "serve": "^11.3.0",
-    "underscore": "^1.10.2"
+    "underscore": "^1.10.2",
+    "xml2json": "^0.12.0"
   }
 }
