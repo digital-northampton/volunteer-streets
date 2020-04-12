@@ -54,8 +54,15 @@ const formatStreetData = () => {
 
 const filterStreetData = () => {
   return new Promise ((resolve, reject) => {
-
-    console.log (streets.length)
+    streets = streets
+                .filter (s => s.highway == "residential" || s.abutters == "residential")
+                .map (s => {
+                  delete s.highway;
+                  delete s.abutters;
+                  return s
+                })
+    
+    console.log (streets)
     resolve ()
   })
 }
