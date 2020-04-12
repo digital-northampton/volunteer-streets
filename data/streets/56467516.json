@@ -1,1 +1,1 @@
-{"id":"56467516","name":"Grendon Avenue"}
+{"id":"56467516","name":"Grendon Avenue","nodes":[{"type":"node","id":706694625,"lat":52.4965318,"lon":-0.7229097},{"type":"node","id":706694990,"lat":52.496003,"lon":-0.7199283},{"type":"node","id":708029508,"lat":52.4960925,"lon":-0.7215155},{"type":"node","id":708029511,"lat":52.495988,"lon":-0.7208718},{"type":"node","id":4998583006,"lat":52.495987,"lon":-0.7204889,"tags":{"traffic_calming":"hump"}}]}

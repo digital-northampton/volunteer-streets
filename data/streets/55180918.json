@@ -1,1 +1,1 @@
-{"id":"55180918","name":"Dando Close"}
+{"id":"55180918","name":"Dando Close","nodes":[{"type":"node","id":693737803,"lat":52.2516642,"lon":-0.6719521,"tags":{"direction":"clockwise","highway":"mini_roundabout","source":"Bing"}},{"type":"node","id":693737840,"lat":52.2525885,"lon":-0.6720263},{"type":"node","id":693737846,"lat":52.2522838,"lon":-0.6721176},{"type":"node","id":693737848,"lat":52.2519929,"lon":-0.6721468},{"type":"node","id":693737849,"lat":52.251783,"lon":-0.6720908}]}
