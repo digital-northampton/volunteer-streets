@@ -1,1 +1,1 @@
-{"id":"73549652","name":"John Lea Way"}
+{"id":"73549652","name":"John Lea Way","nodes":[{"type":"node","id":871793310,"lat":52.2880773,"lon":-0.6935225},{"type":"node","id":871793381,"lat":52.2881419,"lon":-0.693804},{"type":"node","id":871793387,"lat":52.2881204,"lon":-0.6926431},{"type":"node","id":871793388,"lat":52.2881491,"lon":-0.69303},{"type":"node","id":871793391,"lat":52.2882182,"lon":-0.6939759,"tags":{"traffic_calming":"choker"}},{"type":"node","id":871793398,"lat":52.2883041,"lon":-0.6941767}]}

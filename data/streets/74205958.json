@@ -1,1 +1,1 @@
-{"id":"74205958","name":"Arthur Street"}
+{"id":"74205958","name":"Arthur Street","nodes":[{"type":"node","id":877714063,"lat":52.2996929,"lon":-0.705293,"tags":{"direction":"clockwise","highway":"mini_roundabout","source":"bing"}},{"type":"node","id":877714414,"lat":52.3005325,"lon":-0.7064378}]}
