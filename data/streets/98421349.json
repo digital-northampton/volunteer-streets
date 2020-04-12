@@ -1,1 +1,1 @@
-{"id":"98421349","name":"Mortimer Close"}
+{"id":"98421349","name":"Mortimer Close","nodes":[{"type":"node","id":1138788318,"lat":52.2197029,"lon":-0.9122485},{"type":"node","id":1138788319,"lat":52.2200089,"lon":-0.9129349},{"type":"node","id":1138788320,"lat":52.2198793,"lon":-0.9126988},{"type":"node","id":1138788321,"lat":52.2197196,"lon":-0.9123835},{"type":"node","id":1397637711,"lat":52.2200493,"lon":-0.9131447,"tags":{"highway":"turning_circle"}},{"type":"node","id":1397637717,"lat":52.2197701,"lon":-0.9125095}]}
