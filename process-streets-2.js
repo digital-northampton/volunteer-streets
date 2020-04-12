@@ -4,10 +4,12 @@ const fs = require ('fs')
 const path = require ('path')
 
 const streets_data_url = "docs/streets.json"
+const volunteer_data_url = "data/volunteers.json"
 const streets_output_dir = "data/streets/"
 const volunteer_output_dir = "data/volunteers/"
 
 let streets_data
+let volunteer_data
 
 const clearDirs = (directories) => {
   return new Promise ((resolve, reject) => {
@@ -46,6 +48,19 @@ const loadStreetsJSON = () => {
   })
 }
 
+const loadVolunteerJSON = () => {
+  return new Promise ((resolve, reject) => {
+    fs.readFile (volunteer_data_url, function (err, data) {
+      if (err) {
+        reject (err)
+      } else {
+        volunteer_data = JSON.parse (data)
+        resolve ()
+      }
+    })
+  })
+}
+
 const makeStreetData = () => {
   return new Promise ((resolve, reject) => {
 
@@ -65,7 +80,9 @@ const makeStreetData = () => {
 
 clearDirs ([streets_output_dir, volunteer_output_dir])
   .then (loadStreetsJSON)
-  .then (makeStreetData)
+  .then (loadVolunteerJSON)
+  // .then (makeStreetData)
+  // .then (makeVolunteerData)
   .then (() => console.log ("🔥"))
   .catch (e => console.log (e))
 
