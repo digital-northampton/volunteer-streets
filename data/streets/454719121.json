@@ -1,1 +1,1 @@
-{"id":"454719121","name":"Oldbrook"}
+{"id":"454719121","name":"Oldbrook","nodes":[{"type":"node","id":316698975,"lat":52.6044832,"lon":-0.2854557},{"type":"node","id":316698976,"lat":52.6044316,"lon":-0.2855123},{"type":"node","id":316698977,"lat":52.6042998,"lon":-0.2861352},{"type":"node","id":316698980,"lat":52.6037729,"lon":-0.28809},{"type":"node","id":3068623308,"lat":52.6041755,"lon":-0.2867383,"tags":{"crossing":"unmarked","highway":"crossing","kerb":"lowered","sloped_curb":"yes"}},{"type":"node","id":4512492168,"lat":52.6040913,"lon":-0.2870714}]}
