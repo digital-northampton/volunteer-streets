@@ -30,36 +30,40 @@ const loadVolunteers = () => {
 	})
 }
 
-const traceNodes = () => {
+const setPostcodes = () => {
   return new Promise ((resolve, reject) => {
-  	const filename = street_data_dir + ids[0] + ".json"
-  	const rawdata = fs.readFileSync (filename)
-  	const street = JSON.parse (rawdata)
 
-  	let closest_distance = 99999999999999;
-  	let closest_volunteer_postcode = "";
+  	ids.forEach ((id, index) => {
+	  	const filename = street_data_dir + id + ".json"
+	  	const rawdata = fs.readFileSync (filename)
+	  	const street = JSON.parse (rawdata)
+	  	
+	  	let closest_distance = 99999999999999;
+	  	let closest_volunteer_postcode = "";
 
-  	street.nodes.forEach (n => {
-	  	volunteers.forEach (v => {
-	  		const a = parseFloat (v.lat) - parseFloat (n.lat)
-				const b = parseFloat (v.lng) - parseFloat (n.lon)
-				const c = Math.sqrt (a * a + b * b)
+	  	street.nodes.forEach (n => {
+		  	volunteers.forEach (v => {
+		  		const a = parseFloat (v.lat) - parseFloat (n.lon)
+					const b = parseFloat (v.lng) - parseFloat (n.lat)
+					const c = Math.sqrt (a * a + b * b)
 
-				if (c < closest_distance) {
-					closest_volunteer_postcode = v.postcode
-					closest_distance = c
-				}
+					if (c < closest_distance) {
+						closest_volunteer_postcode = v.postcode
+						closest_distance = c
+					}
+		  	})
 	  	})
+
+	  	street.volunteer_postcode = closest_volunteer_postcode
+	  	console.log (index, ids.length)
   	})
 
-  	console.log (closest_volunteer_postcode)
-  	
   	resolve ()
   })
 }
 
 getIDs ()
 	.then (loadVolunteers)
-	.then (traceNodes)
+	.then (setPostcodes)
   .then (() => console.log ("🔥"))
   .catch (e => console.log (e))
