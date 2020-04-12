@@ -48,7 +48,7 @@ const loadStreetsJSON = () => {
 const makeStreetData = () => {
   return new Promise ((resolve, reject) => {
     streets_data.forEach (s => {
-      const filename = streets_output_dir + s.id + ".csv"
+      const filename = streets_output_dir + s.id + ".json"
       const output_file = fs.openSync (filename, 'w');
       const data = JSON.stringify (s)
       fs.writeFileSync (output_file, data);
