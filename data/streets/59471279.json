@@ -1,1 +1,1 @@
-{"id":"59471279","name":"Eldean Road"}
+{"id":"59471279","name":"Eldean Road","nodes":[{"type":"node","id":737669253,"lat":52.2531758,"lon":-0.9482829},{"type":"node","id":737669258,"lat":52.25322,"lon":-0.9486473},{"type":"node","id":737669266,"lat":52.2527283,"lon":-0.9515081},{"type":"node","id":1512738717,"lat":52.2531868,"lon":-0.9484287},{"type":"node","id":6893575276,"lat":52.2531048,"lon":-0.9493351,"tags":{"highway":"turning_circle"}}]}

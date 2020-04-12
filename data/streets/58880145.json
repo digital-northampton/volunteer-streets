@@ -1,1 +1,1 @@
-{"id":"58880145","name":"Franklin Crescent"}
+{"id":"58880145","name":"Franklin Crescent","nodes":[{"type":"node","id":729620551,"lat":52.2433359,"lon":-0.9321444},{"type":"node","id":729620553,"lat":52.2432978,"lon":-0.9328955},{"type":"node","id":729620554,"lat":52.2432649,"lon":-0.9330522},{"type":"node","id":729620557,"lat":52.2432138,"lon":-0.9332057},{"type":"node","id":729620559,"lat":52.2431904,"lon":-0.9332472},{"type":"node","id":1635200286,"lat":52.2431409,"lon":-0.9332749,"tags":{"highway":"turning_circle"}}]}
