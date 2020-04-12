@@ -1,0 +1,24 @@
+{
+  "name": "volunteer-streets",
+  "version": "1.0.0",
+  "description": "Assignment of COVID19 volunteers to streets in the county based on location",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digital-northampton/volunteer-streets.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/digital-northampton/volunteer-streets/issues"
+  },
+  "homepage": "https://github.com/digital-northampton/volunteer-streets#readme",
+  "devDependencies": {
+    "neat-csv": "^5.2.0",
+    "serve": "^11.3.0",
+    "underscore": "^1.10.2"
+  }
+}
