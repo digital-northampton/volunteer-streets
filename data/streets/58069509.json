@@ -1,1 +1,1 @@
-{"id":"58069509","name":"Packwood Close"}
+{"id":"58069509","name":"Packwood Close","nodes":[{"type":"node","id":701886652,"lat":52.2812512,"lon":-1.1720846,"tags":{"direction":"clockwise","fixme":"is this large central island really navigable, or is it roundabout?","highway":"mini_roundabout"}},{"type":"node","id":720594184,"lat":52.2809462,"lon":-1.1718686},{"type":"node","id":720594230,"lat":52.2808572,"lon":-1.172074},{"type":"node","id":2368118451,"lat":52.2811295,"lon":-1.1719622}]}

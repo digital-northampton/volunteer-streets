@@ -1,1 +1,1 @@
-{"id":"56865465","name":"Brookland Road"}
+{"id":"56865465","name":"Brookland Road","nodes":[{"type":"node","id":710759970,"lat":52.254705,"lon":-0.8749264},{"type":"node","id":768584479,"lat":52.2543513,"lon":-0.8741508},{"type":"node","id":1055387495,"lat":52.2540693,"lon":-0.8735424,"tags":{"highway":"mini_roundabout"}}]}

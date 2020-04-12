@@ -1,1 +1,1 @@
-{"id":"58069515","name":"Hanbury Close"}
+{"id":"58069515","name":"Hanbury Close","nodes":[{"type":"node","id":280153373,"lat":52.2793052,"lon":-1.1723868,"tags":{"direction":"clockwise","fixme":"looks like a real roundaout on Bing/OSSSV","highway":"mini_roundabout"}},{"type":"node","id":720594264,"lat":52.279588,"lon":-1.1730343},{"type":"node","id":720594265,"lat":52.2799404,"lon":-1.1730182},{"type":"node","id":5245775242,"lat":52.2796371,"lon":-1.1730778},{"type":"node","id":5245775582,"lat":52.2801174,"lon":-1.1730478}]}
