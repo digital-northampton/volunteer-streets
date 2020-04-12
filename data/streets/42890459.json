@@ -1,1 +1,1 @@
-{"id":"42890459","name":"Broadmead Avenue"}
+{"id":"42890459","name":"Broadmead Avenue","nodes":[{"type":"node","id":539766307,"lat":52.2573698,"lon":-0.8711139},{"type":"node","id":775224987,"lat":52.2574929,"lon":-0.8704056},{"type":"node","id":1057113519,"lat":52.2576886,"lon":-0.8692802,"tags":{"highway":"mini_roundabout"}}]}
