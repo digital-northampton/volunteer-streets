@@ -1,1 +1,1 @@
-{"id":"99407344","name":"Blackwell Road","nodes":[{"type":"node","id":254918154,"lat":52.3746497,"lon":-0.6998353},{"type":"node","id":254918186,"lat":52.3746374,"lon":-0.6993974,"tags":{"created_by":"JOSM"}}],"volunteer_postcode":"NN15 6UF"}
+{"id":"99407344","name":"Blackwell Road","nodes":[{"type":"node","id":254918154,"lat":52.3746497,"lon":-0.6998353},{"type":"node","id":254918186,"lat":52.3746374,"lon":-0.6993974,"tags":{"created_by":"JOSM"}}],"volunteer_postcode":"NN15 6UF","closest_distance":269}

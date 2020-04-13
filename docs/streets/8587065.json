@@ -1,1 +1,1 @@
-{"id":"8587065","name":"Thorpe Lea Road","nodes":[{"type":"node","id":30854582,"lat":52.5704088,"lon":-0.2495818},{"type":"node","id":305489149,"lat":52.5702667,"lon":-0.2495057,"tags":{"created_by":"JOSM"}}],"volunteer_postcode":"PE8 6QF"}
+{"id":"8587065","name":"Thorpe Lea Road","nodes":[{"type":"node","id":30854582,"lat":52.5704088,"lon":-0.2495818},{"type":"node","id":305489149,"lat":52.5702667,"lon":-0.2495057,"tags":{"created_by":"JOSM"}}],"volunteer_postcode":"PE8 6QF","closest_distance":19909}

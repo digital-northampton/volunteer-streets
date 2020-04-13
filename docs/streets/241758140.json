@@ -1,1 +1,1 @@
-{"id":"241758140","name":"Rowlett Road","nodes":[{"type":"node","id":2493532196,"lat":52.5003506,"lon":-0.7009659},{"type":"node","id":2493532328,"lat":52.5006008,"lon":-0.701885},{"type":"node","id":2493532350,"lat":52.5006405,"lon":-0.701746}],"volunteer_postcode":"NN17 2BN"}
+{"id":"241758140","name":"Rowlett Road","nodes":[{"type":"node","id":2493532196,"lat":52.5003506,"lon":-0.7009659},{"type":"node","id":2493532328,"lat":52.5006008,"lon":-0.701885},{"type":"node","id":2493532350,"lat":52.5006405,"lon":-0.701746}],"volunteer_postcode":"NN17 2BN","closest_distance":99}

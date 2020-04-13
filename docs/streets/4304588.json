@@ -1,1 +1,1 @@
-{"id":"4304588","name":"Westwood Park Close","nodes":[{"type":"node","id":26031541,"lat":52.5778114,"lon":-0.2679457},{"type":"node","id":26031566,"lat":52.5774444,"lon":-0.2676951,"tags":{"highway":"turning_circle"}}],"volunteer_postcode":"PE8 6QF"}
+{"id":"4304588","name":"Westwood Park Close","nodes":[{"type":"node","id":26031541,"lat":52.5778114,"lon":-0.2679457},{"type":"node","id":26031566,"lat":52.5774444,"lon":-0.2676951,"tags":{"highway":"turning_circle"}}],"volunteer_postcode":"PE8 6QF","closest_distance":17974}

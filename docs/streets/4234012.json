@@ -1,1 +1,1 @@
-{"id":"4234012","name":"Festival Road","nodes":[{"type":"node","id":25259907,"lat":52.181985,"lon":-1.0243341,"tags":{"created_by":"JOSM"}},{"type":"node","id":25268666,"lat":52.1813053,"lon":-1.023285,"tags":{"created_by":"JOSM"}}],"volunteer_postcode":"NN12 8JZ"}
+{"id":"4234012","name":"Festival Road","nodes":[{"type":"node","id":25259907,"lat":52.181985,"lon":-1.0243341,"tags":{"created_by":"JOSM"}},{"type":"node","id":25268666,"lat":52.1813053,"lon":-1.023285,"tags":{"created_by":"JOSM"}}],"volunteer_postcode":"NN12 8JZ","closest_distance":119}

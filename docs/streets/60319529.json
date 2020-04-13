@@ -1,1 +1,1 @@
-{"id":"60319529","name":"The Crescent","nodes":[{"type":"node","id":750037653,"lat":52.2885346,"lon":-0.8468479,"tags":{"highway":"turning_circle"}},{"type":"node","id":750037655,"lat":52.288983,"lon":-0.8471862}],"volunteer_postcode":"NN3 7DH"}
+{"id":"60319529","name":"The Crescent","nodes":[{"type":"node","id":750037653,"lat":52.2885346,"lon":-0.8468479,"tags":{"highway":"turning_circle"}},{"type":"node","id":750037655,"lat":52.288983,"lon":-0.8471862}],"volunteer_postcode":"NN3 7DH","closest_distance":803}

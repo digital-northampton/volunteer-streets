@@ -1,1 +1,1 @@
-{"id":"41916630","name":"Fleetwood Close","nodes":[{"type":"node","id":519000858,"lat":52.4697755,"lon":-0.9325831},{"type":"node","id":519000866,"lat":52.4697666,"lon":-0.9322496},{"type":"node","id":519000867,"lat":52.469758,"lon":-0.9315495}],"volunteer_postcode":"LE16 9SH"}
+{"id":"41916630","name":"Fleetwood Close","nodes":[{"type":"node","id":519000858,"lat":52.4697755,"lon":-0.9325831},{"type":"node","id":519000866,"lat":52.4697666,"lon":-0.9322496},{"type":"node","id":519000867,"lat":52.469758,"lon":-0.9315495}],"volunteer_postcode":"LE16 9SH","closest_distance":1552}

@@ -1,1 +1,1 @@
-{"id":"466356799","name":"Lakeview Court","nodes":[{"type":"node","id":2036825826,"lat":52.2584094,"lon":-0.8247954,"tags":{"highway":"mini_roundabout"}},{"type":"node","id":4611665240,"lat":52.2579085,"lon":-0.8255109}],"volunteer_postcode":"NN3 9EP"}
+{"id":"466356799","name":"Lakeview Court","nodes":[{"type":"node","id":2036825826,"lat":52.2584094,"lon":-0.8247954,"tags":{"highway":"mini_roundabout"}},{"type":"node","id":4611665240,"lat":52.2579085,"lon":-0.8255109}],"volunteer_postcode":"NN3 9EP","closest_distance":101}

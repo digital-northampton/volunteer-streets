@@ -1,1 +1,1 @@
-{"id":"16321012","name":"Walkers Way","nodes":[{"type":"node","id":60270068,"lat":52.5797857,"lon":-0.2946573,"tags":{"created_by":"JOSM"}},{"type":"node","id":60270085,"lat":52.5799776,"lon":-0.2941945,"tags":{"created_by":"JOSM"}}],"volunteer_postcode":"PE8 6QF"}
+{"id":"16321012","name":"Walkers Way","nodes":[{"type":"node","id":60270068,"lat":52.5797857,"lon":-0.2946573,"tags":{"created_by":"JOSM"}},{"type":"node","id":60270085,"lat":52.5799776,"lon":-0.2941945,"tags":{"created_by":"JOSM"}}],"volunteer_postcode":"PE8 6QF","closest_distance":15077}

@@ -1,1 +1,1 @@
-{"id":"98125230","name":"Stokes Road","nodes":[{"type":"node","id":707265240,"lat":52.4819457,"lon":-0.707856},{"type":"node","id":1135288619,"lat":52.4813895,"lon":-0.7079467},{"type":"node","id":4230661267,"lat":52.481681,"lon":-0.7079068}],"volunteer_postcode":"NN18 9ND"}
+{"id":"98125230","name":"Stokes Road","nodes":[{"type":"node","id":707265240,"lat":52.4819457,"lon":-0.707856},{"type":"node","id":1135288619,"lat":52.4813895,"lon":-0.7079467},{"type":"node","id":4230661267,"lat":52.481681,"lon":-0.7079068}],"volunteer_postcode":"NN18 9ND","closest_distance":248}

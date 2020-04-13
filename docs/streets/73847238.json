@@ -1,1 +1,1 @@
-{"id":"73847238","name":"Banbury Close","nodes":[{"type":"node","id":873824666,"lat":52.2862259,"lon":-0.7091379},{"type":"node","id":873824689,"lat":52.2858873,"lon":-0.708547},{"type":"node","id":873824693,"lat":52.2865071,"lon":-0.7094756}],"volunteer_postcode":"NN8 2NT"}
+{"id":"73847238","name":"Banbury Close","nodes":[{"type":"node","id":873824666,"lat":52.2862259,"lon":-0.7091379},{"type":"node","id":873824689,"lat":52.2858873,"lon":-0.708547},{"type":"node","id":873824693,"lat":52.2865071,"lon":-0.7094756}],"volunteer_postcode":"NN8 2NT","closest_distance":115}

@@ -1,1 +1,1 @@
-{"id":"57393595","name":"Gorse Close","nodes":[{"type":"node","id":713894478,"lat":52.2735526,"lon":-0.9059155,"tags":{"highway":"turning_circle"}},{"type":"node","id":713894481,"lat":52.2740527,"lon":-0.9062709}],"volunteer_postcode":"NN2 8EA"}
+{"id":"57393595","name":"Gorse Close","nodes":[{"type":"node","id":713894478,"lat":52.2735526,"lon":-0.9059155,"tags":{"highway":"turning_circle"}},{"type":"node","id":713894481,"lat":52.2740527,"lon":-0.9062709}],"volunteer_postcode":"NN2 8EA","closest_distance":170}

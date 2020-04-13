@@ -1,1 +1,1 @@
-{"id":"54329681","name":"Pipewell Road","nodes":[{"type":"node","id":1098265167,"lat":52.4441797,"lon":-0.814062},{"type":"node","id":3725518580,"lat":52.444314,"lon":-0.814048},{"type":"node","id":3725518584,"lat":52.4440408,"lon":-0.8139636}],"volunteer_postcode":"NN14 2GN"}
+{"id":"54329681","name":"Pipewell Road","nodes":[{"type":"node","id":1098265167,"lat":52.4441797,"lon":-0.814062},{"type":"node","id":3725518580,"lat":52.444314,"lon":-0.814048},{"type":"node","id":3725518584,"lat":52.4440408,"lon":-0.8139636}],"volunteer_postcode":"NN14 2GN","closest_distance":127}

@@ -1,1 +1,1 @@
-{"id":"59532679","name":"Station Close","nodes":[{"type":"node","id":738277187,"lat":52.301224,"lon":-1.0817355},{"type":"node","id":738277213,"lat":52.3013814,"lon":-1.0814995},{"type":"node","id":738277214,"lat":52.3013289,"lon":-1.0816497}],"volunteer_postcode":"NN6 7YQ"}
+{"id":"59532679","name":"Station Close","nodes":[{"type":"node","id":738277187,"lat":52.301224,"lon":-1.0817355},{"type":"node","id":738277213,"lat":52.3013814,"lon":-1.0814995},{"type":"node","id":738277214,"lat":52.3013289,"lon":-1.0816497}],"volunteer_postcode":"NN6 7YQ","closest_distance":114}

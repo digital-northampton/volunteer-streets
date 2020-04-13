@@ -1,1 +1,1 @@
-{"id":"54179148","name":"Shrewsbury Avenue","nodes":[{"type":"node","id":683398509,"lat":52.472346,"lon":-0.9010179,"tags":{"highway":"turning_circle"}},{"type":"node","id":683398583,"lat":52.4738605,"lon":-0.8999277}],"volunteer_postcode":"LE16 8FB"}
+{"id":"54179148","name":"Shrewsbury Avenue","nodes":[{"type":"node","id":683398509,"lat":52.472346,"lon":-0.9010179,"tags":{"highway":"turning_circle"}},{"type":"node","id":683398583,"lat":52.4738605,"lon":-0.8999277}],"volunteer_postcode":"LE16 8FB","closest_distance":667}

@@ -1,1 +1,1 @@
-{"id":"98106424","name":"Bushey Balk Close","nodes":[{"type":"node","id":1135359329,"lat":52.4691752,"lon":-0.7240456,"tags":{"highway":"turning_circle"}},{"type":"node","id":1135359408,"lat":52.4688453,"lon":-0.7233504}],"volunteer_postcode":"NN18 8HP"}
+{"id":"98106424","name":"Bushey Balk Close","nodes":[{"type":"node","id":1135359329,"lat":52.4691752,"lon":-0.7240456,"tags":{"highway":"turning_circle"}},{"type":"node","id":1135359408,"lat":52.4688453,"lon":-0.7233504}],"volunteer_postcode":"NN18 8HP","closest_distance":175}

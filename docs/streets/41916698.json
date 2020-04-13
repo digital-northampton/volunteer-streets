@@ -1,1 +1,1 @@
-{"id":"41916698","name":"Burford Close","nodes":[{"type":"node","id":519001261,"lat":52.4710192,"lon":-0.9287572},{"type":"node","id":519001263,"lat":52.4710919,"lon":-0.9287537},{"type":"node","id":519001264,"lat":52.4707861,"lon":-0.9287685}],"volunteer_postcode":"LE16 9SH"}
+{"id":"41916698","name":"Burford Close","nodes":[{"type":"node","id":519001261,"lat":52.4710192,"lon":-0.9287572},{"type":"node","id":519001263,"lat":52.4710919,"lon":-0.9287537},{"type":"node","id":519001264,"lat":52.4707861,"lon":-0.9287685}],"volunteer_postcode":"LE16 9SH","closest_distance":1955}

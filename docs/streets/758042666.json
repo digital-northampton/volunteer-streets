@@ -1,1 +1,1 @@
-{"id":"758042666","name":"Main Road","nodes":[{"type":"node","id":963989799,"lat":52.2280509,"lon":-0.9023607},{"type":"node","id":963989909,"lat":52.2281484,"lon":-0.9027103},{"type":"node","id":963989912,"lat":52.2281838,"lon":-0.9031889}],"volunteer_postcode":"NN4 8LF"}
+{"id":"758042666","name":"Main Road","nodes":[{"type":"node","id":963989799,"lat":52.2280509,"lon":-0.9023607},{"type":"node","id":963989909,"lat":52.2281484,"lon":-0.9027103},{"type":"node","id":963989912,"lat":52.2281838,"lon":-0.9031889}],"volunteer_postcode":"NN4 8LF","closest_distance":213}

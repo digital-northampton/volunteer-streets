@@ -1,1 +1,1 @@
-{"id":"56435111","name":"Shaftesbury Road","nodes":[{"type":"node","id":707264822,"lat":52.489193,"lon":-0.7271599},{"type":"node","id":707264825,"lat":52.4894861,"lon":-0.7268326},{"type":"node","id":707264840,"lat":52.4901647,"lon":-0.7265671}],"volunteer_postcode":"NN18 0BD"}
+{"id":"56435111","name":"Shaftesbury Road","nodes":[{"type":"node","id":707264822,"lat":52.489193,"lon":-0.7271599},{"type":"node","id":707264825,"lat":52.4894861,"lon":-0.7268326},{"type":"node","id":707264840,"lat":52.4901647,"lon":-0.7265671}],"volunteer_postcode":"NN18 0BD","closest_distance":55}

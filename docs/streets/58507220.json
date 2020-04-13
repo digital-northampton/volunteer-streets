@@ -1,1 +1,1 @@
-{"id":"58507220","name":"Charles Street","nodes":[{"type":"node","id":725154635,"lat":52.2430637,"lon":-0.891903},{"type":"node","id":725154636,"lat":52.2429583,"lon":-0.8915222,"tags":{"barrier":"bollard","bicycle":"no","foot":"yes"}}],"volunteer_postcode":"NN1 3AX"}
+{"id":"58507220","name":"Charles Street","nodes":[{"type":"node","id":725154635,"lat":52.2430637,"lon":-0.891903},{"type":"node","id":725154636,"lat":52.2429583,"lon":-0.8915222,"tags":{"barrier":"bollard","bicycle":"no","foot":"yes"}}],"volunteer_postcode":"NN1 3AX","closest_distance":33}

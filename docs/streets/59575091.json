@@ -1,1 +1,1 @@
-{"id":"59575091","name":"Ferndale Road","nodes":[{"type":"node","id":738938760,"lat":52.2577003,"lon":-0.8481596},{"type":"node","id":738938762,"lat":52.2567975,"lon":-0.8503228},{"type":"node","id":1057472902,"lat":52.2576001,"lon":-0.8482258}],"volunteer_postcode":"NN3 2NP"}
+{"id":"59575091","name":"Ferndale Road","nodes":[{"type":"node","id":738938760,"lat":52.2577003,"lon":-0.8481596},{"type":"node","id":738938762,"lat":52.2567975,"lon":-0.8503228},{"type":"node","id":1057472902,"lat":52.2576001,"lon":-0.8482258}],"volunteer_postcode":"NN3 2NP","closest_distance":20}

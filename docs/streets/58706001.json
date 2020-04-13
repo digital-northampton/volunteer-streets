@@ -1,1 +1,1 @@
-{"id":"58706001","name":"Crispin Street","nodes":[{"type":"node","id":727458595,"lat":52.2407234,"lon":-0.90241},{"type":"node","id":727458618,"lat":52.2401321,"lon":-0.9023779},{"type":"node","id":7148009044,"lat":52.2401994,"lon":-0.9023816}],"volunteer_postcode":"NN1 2SQ"}
+{"id":"58706001","name":"Crispin Street","nodes":[{"type":"node","id":727458595,"lat":52.2407234,"lon":-0.90241},{"type":"node","id":727458618,"lat":52.2401321,"lon":-0.9023779},{"type":"node","id":7148009044,"lat":52.2401994,"lon":-0.9023816}],"volunteer_postcode":"NN1 2SQ","closest_distance":51}

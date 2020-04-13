@@ -1,1 +1,1 @@
-{"id":"59595492","name":"Ashworth Street","nodes":[{"type":"node","id":322119238,"lat":52.2549488,"lon":-1.1650687},{"type":"node","id":322868334,"lat":52.2535432,"lon":-1.1626821},{"type":"node","id":739341064,"lat":52.2546072,"lon":-1.164463}],"volunteer_postcode":"NN11 4AS"}
+{"id":"59595492","name":"Ashworth Street","nodes":[{"type":"node","id":322119238,"lat":52.2549488,"lon":-1.1650687},{"type":"node","id":322868334,"lat":52.2535432,"lon":-1.1626821},{"type":"node","id":739341064,"lat":52.2546072,"lon":-1.164463}],"volunteer_postcode":"NN11 4AS","closest_distance":102}

@@ -1,1 +1,1 @@
-{"id":"58562170","name":"Collins Street","nodes":[{"type":"node","id":344222011,"lat":52.2423911,"lon":-0.8747787},{"type":"node","id":725635362,"lat":52.2418743,"lon":-0.8743135},{"type":"node","id":725635363,"lat":52.2421699,"lon":-0.8744744}],"volunteer_postcode":"NN1 5JX"}
+{"id":"58562170","name":"Collins Street","nodes":[{"type":"node","id":344222011,"lat":52.2423911,"lon":-0.8747787},{"type":"node","id":725635362,"lat":52.2418743,"lon":-0.8743135},{"type":"node","id":725635363,"lat":52.2421699,"lon":-0.8744744}],"volunteer_postcode":"NN1 5JX","closest_distance":142}

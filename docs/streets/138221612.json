@@ -1,1 +1,1 @@
-{"id":"138221612","name":"Thames Road","nodes":[{"type":"node","id":878165887,"lat":52.3123161,"lon":-0.7207906},{"type":"node","id":1515224830,"lat":52.3123538,"lon":-0.7209388},{"type":"node","id":1515224831,"lat":52.31237,"lon":-0.720681}],"volunteer_postcode":"NN8 5WU"}
+{"id":"138221612","name":"Thames Road","nodes":[{"type":"node","id":878165887,"lat":52.3123161,"lon":-0.7207906},{"type":"node","id":1515224830,"lat":52.3123538,"lon":-0.7209388},{"type":"node","id":1515224831,"lat":52.31237,"lon":-0.720681}],"volunteer_postcode":"NN8 5WU","closest_distance":48}

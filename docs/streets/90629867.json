@@ -1,1 +1,1 @@
-{"id":"90629867","name":"Richardson Way","nodes":[{"type":"node","id":1051786084,"lat":52.3468502,"lon":-0.5306392},{"type":"node","id":1051786110,"lat":52.3468859,"lon":-0.5305661,"tags":{"highway":"turning_circle","source":"bing"}}],"volunteer_postcode":"NN9 6JR"}
+{"id":"90629867","name":"Richardson Way","nodes":[{"type":"node","id":1051786084,"lat":52.3468502,"lon":-0.5306392},{"type":"node","id":1051786110,"lat":52.3468859,"lon":-0.5305661,"tags":{"highway":"turning_circle","source":"bing"}}],"volunteer_postcode":"NN9 6JR","closest_distance":470}

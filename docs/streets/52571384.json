@@ -1,1 +1,1 @@
-{"id":"52571384","name":"Pavilion Drive","nodes":[{"type":"node","id":667890172,"lat":52.2174741,"lon":-0.8802451,"tags":{"highway":"turning_circle"}},{"type":"node","id":667890174,"lat":52.2173547,"lon":-0.880142}],"volunteer_postcode":"NN4 7BU"}
+{"id":"52571384","name":"Pavilion Drive","nodes":[{"type":"node","id":667890172,"lat":52.2174741,"lon":-0.8802451,"tags":{"highway":"turning_circle"}},{"type":"node","id":667890174,"lat":52.2173547,"lon":-0.880142}],"volunteer_postcode":"NN4 7BU","closest_distance":500}

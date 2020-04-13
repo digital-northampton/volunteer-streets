@@ -1,1 +1,1 @@
-{"id":"56677021","name":"Greenhills Close","nodes":[{"type":"node","id":708859073,"lat":52.2759737,"lon":-0.9064875},{"type":"node","id":3712124397,"lat":52.2758262,"lon":-0.9073082,"tags":{"highway":"turning_circle"}}],"volunteer_postcode":"NN2 8EA"}
+{"id":"56677021","name":"Greenhills Close","nodes":[{"type":"node","id":708859073,"lat":52.2759737,"lon":-0.9064875},{"type":"node","id":3712124397,"lat":52.2758262,"lon":-0.9073082,"tags":{"highway":"turning_circle"}}],"volunteer_postcode":"NN2 8EA","closest_distance":47}

@@ -1,1 +1,1 @@
-{"id":"30956895","name":"Whitworth Road","nodes":[{"type":"node","id":344222026,"lat":52.245269,"lon":-0.8800852},{"type":"node","id":345442918,"lat":52.243219,"lon":-0.8792591},{"type":"node","id":710848189,"lat":52.244718,"lon":-0.8798568}],"volunteer_postcode":"NN1 4NY"}
+{"id":"30956895","name":"Whitworth Road","nodes":[{"type":"node","id":344222026,"lat":52.245269,"lon":-0.8800852},{"type":"node","id":345442918,"lat":52.243219,"lon":-0.8792591},{"type":"node","id":710848189,"lat":52.244718,"lon":-0.8798568}],"volunteer_postcode":"NN1 4NY","closest_distance":206}

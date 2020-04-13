@@ -1,1 +1,1 @@
-{"id":"59734504","name":"Station Close","nodes":[{"type":"node","id":741356102,"lat":52.2576902,"lon":-1.1558773},{"type":"node","id":741356288,"lat":52.2578609,"lon":-1.157079},{"type":"node","id":741356307,"lat":52.2574669,"lon":-1.1557808}],"volunteer_postcode":"NN11 4DE"}
+{"id":"59734504","name":"Station Close","nodes":[{"type":"node","id":741356102,"lat":52.2576902,"lon":-1.1558773},{"type":"node","id":741356288,"lat":52.2578609,"lon":-1.157079},{"type":"node","id":741356307,"lat":52.2574669,"lon":-1.1557808}],"volunteer_postcode":"NN11 4DE","closest_distance":284}

@@ -1,1 +1,1 @@
-{"id":"8586874","name":"Whalley Street","nodes":[{"type":"node","id":29943667,"lat":52.5784764,"lon":-0.2344843},{"type":"node","id":29943672,"lat":52.5781515,"lon":-0.2331574},{"type":"node","id":60947246,"lat":52.5778814,"lon":-0.2318977}],"volunteer_postcode":"PE8 6QF"}
+{"id":"8586874","name":"Whalley Street","nodes":[{"type":"node","id":29943667,"lat":52.5784764,"lon":-0.2344843},{"type":"node","id":29943672,"lat":52.5781515,"lon":-0.2331574},{"type":"node","id":60947246,"lat":52.5778814,"lon":-0.2318977}],"volunteer_postcode":"PE8 6QF","closest_distance":21675}

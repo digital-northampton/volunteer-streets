@@ -1,1 +1,1 @@
-{"id":"56906812","name":"Turner Street","nodes":[{"type":"node","id":710848113,"lat":52.2455093,"lon":-0.8817994},{"type":"node","id":710848123,"lat":52.2457427,"lon":-0.8802771},{"type":"node","id":710848131,"lat":52.2462212,"lon":-0.8771235}],"volunteer_postcode":"NN1 4NY"}
+{"id":"56906812","name":"Turner Street","nodes":[{"type":"node","id":710848113,"lat":52.2455093,"lon":-0.8817994},{"type":"node","id":710848123,"lat":52.2457427,"lon":-0.8802771},{"type":"node","id":710848131,"lat":52.2462212,"lon":-0.8771235}],"volunteer_postcode":"NN1 4NY","closest_distance":150}

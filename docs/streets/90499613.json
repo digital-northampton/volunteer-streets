@@ -1,1 +1,1 @@
-{"id":"90499613","name":"Mcinnes Way","nodes":[{"type":"node","id":1049908443,"lat":52.3488202,"lon":-0.5371063},{"type":"node","id":1049908880,"lat":52.3488583,"lon":-0.5370205,"tags":{"highway":"turning_circle","source":"bing"}}],"volunteer_postcode":"NN9 6JX"}
+{"id":"90499613","name":"Mcinnes Way","nodes":[{"type":"node","id":1049908443,"lat":52.3488202,"lon":-0.5371063},{"type":"node","id":1049908880,"lat":52.3488583,"lon":-0.5370205,"tags":{"highway":"turning_circle","source":"bing"}}],"volunteer_postcode":"NN9 6JX","closest_distance":422}

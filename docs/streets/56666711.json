@@ -1,1 +1,1 @@
-{"id":"56666711","name":"West Ridge","nodes":[{"type":"node","id":708661120,"lat":52.2637111,"lon":-0.8918106},{"type":"node","id":708661124,"lat":52.2634858,"lon":-0.8919769,"tags":{"highway":"turning_circle"}}],"volunteer_postcode":"NN2 7QZ"}
+{"id":"56666711","name":"West Ridge","nodes":[{"type":"node","id":708661120,"lat":52.2637111,"lon":-0.8918106},{"type":"node","id":708661124,"lat":52.2634858,"lon":-0.8919769,"tags":{"highway":"turning_circle"}}],"volunteer_postcode":"NN2 7QZ","closest_distance":48}

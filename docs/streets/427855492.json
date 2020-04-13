@@ -1,1 +1,1 @@
-{"id":"427855492","name":"Craig Street","nodes":[{"type":"node","id":1064199713,"lat":52.5781507,"lon":-0.2459447,"tags":{"highway":"turning_circle"}},{"type":"node","id":1064199716,"lat":52.5790801,"lon":-0.2461894}],"volunteer_postcode":"PE8 6QF"}
+{"id":"427855492","name":"Craig Street","nodes":[{"type":"node","id":1064199713,"lat":52.5781507,"lon":-0.2459447,"tags":{"highway":"turning_circle"}},{"type":"node","id":1064199716,"lat":52.5790801,"lon":-0.2461894}],"volunteer_postcode":"PE8 6QF","closest_distance":20392}

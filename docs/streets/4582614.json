@@ -1,1 +1,1 @@
-{"id":"4582614","name":"Briary Close","nodes":[{"type":"node","id":15369269,"lat":52.1225787,"lon":-0.9946585},{"type":"node","id":15369272,"lat":52.1227096,"lon":-0.9943783,"tags":{"source":"survey"}}],"volunteer_postcode":"NN12 6TD"}
+{"id":"4582614","name":"Briary Close","nodes":[{"type":"node","id":15369269,"lat":52.1225787,"lon":-0.9946585},{"type":"node","id":15369272,"lat":52.1227096,"lon":-0.9943783,"tags":{"source":"survey"}}],"volunteer_postcode":"NN12 6TD","closest_distance":58}

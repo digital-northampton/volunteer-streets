@@ -1,1 +1,1 @@
-{"id":"56760024","name":"Stafford Road","nodes":[{"type":"node","id":710546107,"lat":52.535576,"lon":-0.6701742},{"type":"node","id":710546112,"lat":52.5359898,"lon":-0.6710046},{"type":"node","id":1811034696,"lat":52.5356933,"lon":-0.6704244}],"volunteer_postcode":"NN17 1JD"}
+{"id":"56760024","name":"Stafford Road","nodes":[{"type":"node","id":710546107,"lat":52.535576,"lon":-0.6701742},{"type":"node","id":710546112,"lat":52.5359898,"lon":-0.6710046},{"type":"node","id":1811034696,"lat":52.5356933,"lon":-0.6704244}],"volunteer_postcode":"NN17 1JD","closest_distance":4240}

@@ -1,1 +1,1 @@
-{"id":"90518787","name":"Bugby Way","nodes":[{"type":"node","id":1050141740,"lat":52.3476686,"lon":-0.5368751},{"type":"node","id":1050141942,"lat":52.3476984,"lon":-0.5368313,"tags":{"highway":"turning_circle","source":"bing"}}],"volunteer_postcode":"NN9 6JX"}
+{"id":"90518787","name":"Bugby Way","nodes":[{"type":"node","id":1050141740,"lat":52.3476686,"lon":-0.5368751},{"type":"node","id":1050141942,"lat":52.3476984,"lon":-0.5368313,"tags":{"highway":"turning_circle","source":"bing"}}],"volunteer_postcode":"NN9 6JX","closest_distance":336}

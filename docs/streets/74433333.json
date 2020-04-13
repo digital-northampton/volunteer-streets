@@ -1,1 +1,1 @@
-{"id":"74433333","name":"The Pyghtle","nodes":[{"type":"node","id":879627088,"lat":52.3085248,"lon":-0.696647,"tags":{"highway":"turning_circle","source":"bing"}},{"type":"node","id":879627131,"lat":52.3087432,"lon":-0.6958506}],"volunteer_postcode":"NN8 5AY"}
+{"id":"74433333","name":"The Pyghtle","nodes":[{"type":"node","id":879627088,"lat":52.3085248,"lon":-0.696647,"tags":{"highway":"turning_circle","source":"bing"}},{"type":"node","id":879627131,"lat":52.3087432,"lon":-0.6958506}],"volunteer_postcode":"NN8 5AY","closest_distance":259}

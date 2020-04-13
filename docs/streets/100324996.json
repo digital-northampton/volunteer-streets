@@ -1,1 +1,1 @@
-{"id":"100324996","name":"The Glebe","nodes":[{"type":"node","id":1159961584,"lat":52.2254782,"lon":-1.1798052,"tags":{"highway":"turning_circle"}},{"type":"node","id":1159961643,"lat":52.2255719,"lon":-1.1800235}],"volunteer_postcode":"NN11 3HW"}
+{"id":"100324996","name":"The Glebe","nodes":[{"type":"node","id":1159961584,"lat":52.2254782,"lon":-1.1798052,"tags":{"highway":"turning_circle"}},{"type":"node","id":1159961643,"lat":52.2255719,"lon":-1.1800235}],"volunteer_postcode":"NN11 3HW","closest_distance":2611}

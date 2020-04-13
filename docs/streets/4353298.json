@@ -1,1 +1,1 @@
-{"id":"4353298","name":"Bridge Street","nodes":[{"type":"node","id":21299854,"lat":52.2326787,"lon":-1.0751322},{"type":"node","id":26515771,"lat":52.2324099,"lon":-1.0751524,"tags":{"created_by":"JOSM"}}],"volunteer_postcode":"NN7 4TG"}
+{"id":"4353298","name":"Bridge Street","nodes":[{"type":"node","id":21299854,"lat":52.2326787,"lon":-1.0751322},{"type":"node","id":26515771,"lat":52.2324099,"lon":-1.0751524,"tags":{"created_by":"JOSM"}}],"volunteer_postcode":"NN7 4TG","closest_distance":1269}

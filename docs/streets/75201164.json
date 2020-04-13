@@ -1,1 +1,1 @@
-{"id":"75201164","name":"Eastfield Road","nodes":[{"type":"node","id":887542380,"lat":52.3265862,"lon":-0.9015246},{"type":"node","id":887542705,"lat":52.3251767,"lon":-0.9011934},{"type":"node","id":887542709,"lat":52.3246703,"lon":-0.9010706}],"volunteer_postcode":"NN6 9JW"}
+{"id":"75201164","name":"Eastfield Road","nodes":[{"type":"node","id":887542380,"lat":52.3265862,"lon":-0.9015246},{"type":"node","id":887542705,"lat":52.3251767,"lon":-0.9011934},{"type":"node","id":887542709,"lat":52.3246703,"lon":-0.9010706}],"volunteer_postcode":"NN6 9JW","closest_distance":160}

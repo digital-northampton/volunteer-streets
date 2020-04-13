@@ -1,1 +1,1 @@
-{"id":"4805890","name":"Johnson Walk","nodes":[{"type":"node","id":30844767,"lat":52.5974145,"lon":-0.2476713},{"type":"node","id":30844788,"lat":52.5977352,"lon":-0.2479488,"tags":{"created_by":"JOSM"}}],"volunteer_postcode":"PE8 6QF"}
+{"id":"4805890","name":"Johnson Walk","nodes":[{"type":"node","id":30844767,"lat":52.5974145,"lon":-0.2476713},{"type":"node","id":30844788,"lat":52.5977352,"lon":-0.2479488,"tags":{"created_by":"JOSM"}}],"volunteer_postcode":"PE8 6QF","closest_distance":20582}

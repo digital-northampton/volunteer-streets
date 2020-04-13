@@ -1,1 +1,1 @@
-{"id":"782058067","name":"Christchurch Road","nodes":[{"type":"node","id":248102914,"lat":52.2439,"lon":-0.8720633},{"type":"node","id":344222006,"lat":52.2437865,"lon":-0.8717545},{"type":"node","id":344222007,"lat":52.2438178,"lon":-0.8718654}],"volunteer_postcode":"NN1 5JH"}
+{"id":"782058067","name":"Christchurch Road","nodes":[{"type":"node","id":248102914,"lat":52.2439,"lon":-0.8720633},{"type":"node","id":344222006,"lat":52.2437865,"lon":-0.8717545},{"type":"node","id":344222007,"lat":52.2438178,"lon":-0.8718654}],"volunteer_postcode":"NN1 5JH","closest_distance":148}

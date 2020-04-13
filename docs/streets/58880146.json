@@ -1,1 +1,1 @@
-{"id":"58880146","name":"Carlyle Avenue","nodes":[{"type":"node","id":729620566,"lat":52.2428323,"lon":-0.9320677},{"type":"node","id":1512714273,"lat":52.2432764,"lon":-0.9309074,"tags":{"highway":"turning_circle"}}],"volunteer_postcode":"NN5 5NT"}
+{"id":"58880146","name":"Carlyle Avenue","nodes":[{"type":"node","id":729620566,"lat":52.2428323,"lon":-0.9320677},{"type":"node","id":1512714273,"lat":52.2432764,"lon":-0.9309074,"tags":{"highway":"turning_circle"}}],"volunteer_postcode":"NN5 5NT","closest_distance":90}

@@ -1,1 +1,1 @@
-{"id":"75200727","name":"Parkfield Road","nodes":[{"type":"node","id":887534159,"lat":52.3270593,"lon":-0.9105504,"tags":{"highway":"turning_circle"}},{"type":"node","id":887534161,"lat":52.32796,"lon":-0.9104007}],"volunteer_postcode":"NN6 9DT"}
+{"id":"75200727","name":"Parkfield Road","nodes":[{"type":"node","id":887534159,"lat":52.3270593,"lon":-0.9105504,"tags":{"highway":"turning_circle"}},{"type":"node","id":887534161,"lat":52.32796,"lon":-0.9104007}],"volunteer_postcode":"NN6 9DT","closest_distance":31}

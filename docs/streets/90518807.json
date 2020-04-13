@@ -1,1 +1,1 @@
-{"id":"90518807","name":"De Ferneus Drive","nodes":[{"type":"node","id":1050141553,"lat":52.3487461,"lon":-0.5356131,"tags":{"highway":"turning_circle","source":"bing"}},{"type":"node","id":1050141815,"lat":52.3486687,"lon":-0.5355741}],"volunteer_postcode":"NN9 6JR"}
+{"id":"90518807","name":"De Ferneus Drive","nodes":[{"type":"node","id":1050141553,"lat":52.3487461,"lon":-0.5356131,"tags":{"highway":"turning_circle","source":"bing"}},{"type":"node","id":1050141815,"lat":52.3486687,"lon":-0.5355741}],"volunteer_postcode":"NN9 6JR","closest_distance":463}

@@ -1,1 +1,1 @@
-{"id":"24303001","name":"St. Michael's Gate","nodes":[{"type":"node","id":263309406,"lat":52.5964417,"lon":-0.2044295,"tags":{"created_by":"JOSM"}},{"type":"node","id":263309439,"lat":52.5963392,"lon":-0.2047216,"tags":{"created_by":"JOSM"}}],"volunteer_postcode":"PE8 6QF"}
+{"id":"24303001","name":"St. Michael's Gate","nodes":[{"type":"node","id":263309406,"lat":52.5964417,"lon":-0.2044295,"tags":{"created_by":"JOSM"}},{"type":"node","id":263309439,"lat":52.5963392,"lon":-0.2047216,"tags":{"created_by":"JOSM"}}],"volunteer_postcode":"PE8 6QF","closest_distance":25256}

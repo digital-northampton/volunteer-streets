@@ -1,1 +1,1 @@
-{"id":"74180002","name":"Goldsmith Road","nodes":[{"type":"node","id":877469299,"lat":52.301644,"lon":-0.7228875},{"type":"node","id":877469380,"lat":52.3011361,"lon":-0.7228054},{"type":"node","id":877469508,"lat":52.3017852,"lon":-0.7229104}],"volunteer_postcode":"NN8 3DP"}
+{"id":"74180002","name":"Goldsmith Road","nodes":[{"type":"node","id":877469299,"lat":52.301644,"lon":-0.7228875},{"type":"node","id":877469380,"lat":52.3011361,"lon":-0.7228054},{"type":"node","id":877469508,"lat":52.3017852,"lon":-0.7229104}],"volunteer_postcode":"NN8 3DP","closest_distance":468}

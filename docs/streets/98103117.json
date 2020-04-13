@@ -1,1 +1,1 @@
-{"id":"98103117","name":"Osbourne Close","nodes":[{"type":"node","id":706696595,"lat":52.4705405,"lon":-0.7039626,"tags":{"highway":"mini_roundabout"}},{"type":"node","id":1135321109,"lat":52.470763,"lon":-0.7030718}],"volunteer_postcode":"NN18 8NZ"}
+{"id":"98103117","name":"Osbourne Close","nodes":[{"type":"node","id":706696595,"lat":52.4705405,"lon":-0.7039626,"tags":{"highway":"mini_roundabout"}},{"type":"node","id":1135321109,"lat":52.470763,"lon":-0.7030718}],"volunteer_postcode":"NN18 8NZ","closest_distance":240}

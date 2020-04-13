@@ -1,1 +1,1 @@
-{"id":"63036062","name":"Waterloo","nodes":[{"type":"node","id":168714598,"lat":52.2572673,"lon":-1.1656696},{"type":"node","id":783538771,"lat":52.2578915,"lon":-1.1664801},{"type":"node","id":7151708025,"lat":52.2573689,"lon":-1.1658015}],"volunteer_postcode":"NN11 4AS"}
+{"id":"63036062","name":"Waterloo","nodes":[{"type":"node","id":168714598,"lat":52.2572673,"lon":-1.1656696},{"type":"node","id":783538771,"lat":52.2578915,"lon":-1.1664801},{"type":"node","id":7151708025,"lat":52.2573689,"lon":-1.1658015}],"volunteer_postcode":"NN11 4AS","closest_distance":505}

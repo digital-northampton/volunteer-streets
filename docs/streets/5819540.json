@@ -1,1 +1,1 @@
-{"id":"5819540","name":"Bedford Street","nodes":[{"type":"node","id":29943661,"lat":52.5809528,"lon":-0.2339356},{"type":"node","id":29943662,"lat":52.5815865,"lon":-0.2329078},{"type":"node","id":29943670,"lat":52.5803877,"lon":-0.2347199}],"volunteer_postcode":"PE8 6QF"}
+{"id":"5819540","name":"Bedford Street","nodes":[{"type":"node","id":29943661,"lat":52.5809528,"lon":-0.2339356},{"type":"node","id":29943662,"lat":52.5815865,"lon":-0.2329078},{"type":"node","id":29943670,"lat":52.5803877,"lon":-0.2347199}],"volunteer_postcode":"PE8 6QF","closest_distance":21676}

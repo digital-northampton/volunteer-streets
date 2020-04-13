@@ -1,1 +1,1 @@
-{"id":"9989580","name":"The Avenue","nodes":[{"type":"node","id":81483485,"lat":52.0696182,"lon":-1.2702881},{"type":"node","id":81483516,"lat":52.0712562,"lon":-1.2701975,"tags":{"created_by":"JOSM"}}],"volunteer_postcode":"OX17 2BX"}
+{"id":"9989580","name":"The Avenue","nodes":[{"type":"node","id":81483485,"lat":52.0696182,"lon":-1.2702881},{"type":"node","id":81483516,"lat":52.0712562,"lon":-1.2701975,"tags":{"created_by":"JOSM"}}],"volunteer_postcode":"OX17 2BX","closest_distance":2902}

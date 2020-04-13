@@ -1,1 +1,1 @@
-{"id":"8136563","name":"John Clare Close","nodes":[{"type":"node","id":25369925,"lat":52.0419627,"lon":-1.1435376,"tags":{"highway":"turning_circle"}},{"type":"node","id":25369927,"lat":52.0419432,"lon":-1.1434205}],"volunteer_postcode":"NN13 5GE"}
+{"id":"8136563","name":"John Clare Close","nodes":[{"type":"node","id":25369925,"lat":52.0419627,"lon":-1.1435376,"tags":{"highway":"turning_circle"}},{"type":"node","id":25369927,"lat":52.0419432,"lon":-1.1434205}],"volunteer_postcode":"NN13 5GE","closest_distance":71}

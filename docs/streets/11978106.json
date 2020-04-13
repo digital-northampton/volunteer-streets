@@ -1,1 +1,1 @@
-{"id":"11978106","name":"Walcot Close","nodes":[{"type":"node","id":107984190,"lat":52.489747,"lon":-0.4800079,"tags":{"direction":"clockwise","highway":"mini_roundabout"}},{"type":"node","id":107984262,"lat":52.489249,"lon":-0.47998}],"volunteer_postcode":"PE8 4QN"}
+{"id":"11978106","name":"Walcot Close","nodes":[{"type":"node","id":107984190,"lat":52.489747,"lon":-0.4800079,"tags":{"direction":"clockwise","highway":"mini_roundabout"}},{"type":"node","id":107984262,"lat":52.489249,"lon":-0.47998}],"volunteer_postcode":"PE8 4QN","closest_distance":193}

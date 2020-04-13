@@ -1,1 +1,1 @@
-{"id":"47283038","name":"Centre Street","nodes":[{"type":"node","id":602385521,"lat":52.0672857,"lon":-1.3250829},{"type":"node","id":769139519,"lat":52.0660656,"lon":-1.3249881},{"type":"node","id":2076916431,"lat":52.067177,"lon":-1.3250602}],"volunteer_postcode":"OX17 3RJ"}
+{"id":"47283038","name":"Centre Street","nodes":[{"type":"node","id":602385521,"lat":52.0672857,"lon":-1.3250829},{"type":"node","id":769139519,"lat":52.0660656,"lon":-1.3249881},{"type":"node","id":2076916431,"lat":52.067177,"lon":-1.3250602}],"volunteer_postcode":"OX17 3RJ","closest_distance":7321}

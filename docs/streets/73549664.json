@@ -1,1 +1,1 @@
-{"id":"73549664","name":"Wake Close","nodes":[{"type":"node","id":871793301,"lat":52.2878908,"lon":-0.696114},{"type":"node","id":871793308,"lat":52.2877546,"lon":-0.6966064},{"type":"node","id":871793346,"lat":52.2877891,"lon":-0.6956582}],"volunteer_postcode":"NN8 2PZ"}
+{"id":"73549664","name":"Wake Close","nodes":[{"type":"node","id":871793301,"lat":52.2878908,"lon":-0.696114},{"type":"node","id":871793308,"lat":52.2877546,"lon":-0.6966064},{"type":"node","id":871793346,"lat":52.2877891,"lon":-0.6956582}],"volunteer_postcode":"NN8 2PZ","closest_distance":355}

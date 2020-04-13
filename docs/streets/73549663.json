@@ -1,1 +1,1 @@
-{"id":"73549663","name":"Johnson Avenue","nodes":[{"type":"node","id":871793330,"lat":52.2874246,"lon":-0.6937102},{"type":"node","id":871793342,"lat":52.2877832,"lon":-0.6928776},{"type":"node","id":871793380,"lat":52.2879195,"lon":-0.6927252}],"volunteer_postcode":"NN8 2PZ"}
+{"id":"73549663","name":"Johnson Avenue","nodes":[{"type":"node","id":871793330,"lat":52.2874246,"lon":-0.6937102},{"type":"node","id":871793342,"lat":52.2877832,"lon":-0.6928776},{"type":"node","id":871793380,"lat":52.2879195,"lon":-0.6927252}],"volunteer_postcode":"NN8 2PZ","closest_distance":610}

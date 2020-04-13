@@ -1,1 +1,1 @@
-{"id":"56666709","name":"Cranford Road","nodes":[{"type":"node","id":708661091,"lat":52.2638625,"lon":-0.8937781},{"type":"node","id":708661095,"lat":52.2636168,"lon":-0.893646,"tags":{"highway":"turning_circle"}}],"volunteer_postcode":"NN2 7QZ"}
+{"id":"56666709","name":"Cranford Road","nodes":[{"type":"node","id":708661091,"lat":52.2638625,"lon":-0.8937781},{"type":"node","id":708661095,"lat":52.2636168,"lon":-0.893646,"tags":{"highway":"turning_circle"}}],"volunteer_postcode":"NN2 7QZ","closest_distance":245}

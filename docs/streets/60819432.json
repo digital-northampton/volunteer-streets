@@ -1,1 +1,1 @@
-{"id":"60819432","name":"Daventry Road","nodes":[{"type":"node","id":633482606,"lat":52.2457377,"lon":-1.2100503},{"type":"node","id":761363073,"lat":52.2448841,"lon":-1.2103759},{"type":"node","id":761363078,"lat":52.2452707,"lon":-1.2102284}],"volunteer_postcode":"NN11 6JJ"}
+{"id":"60819432","name":"Daventry Road","nodes":[{"type":"node","id":633482606,"lat":52.2457377,"lon":-1.2100503},{"type":"node","id":761363073,"lat":52.2448841,"lon":-1.2103759},{"type":"node","id":761363078,"lat":52.2452707,"lon":-1.2102284}],"volunteer_postcode":"NN11 6JJ","closest_distance":18}

@@ -1,1 +1,1 @@
-{"id":"4582612","name":"Redmoor","nodes":[{"type":"node","id":15368850,"lat":52.1229901,"lon":-0.995181},{"type":"node","id":15368852,"lat":52.1231283,"lon":-0.9948404,"tags":{"source":"survey"}}],"volunteer_postcode":"NN12 6TD"}
+{"id":"4582612","name":"Redmoor","nodes":[{"type":"node","id":15368850,"lat":52.1229901,"lon":-0.995181},{"type":"node","id":15368852,"lat":52.1231283,"lon":-0.9948404,"tags":{"source":"survey"}}],"volunteer_postcode":"NN12 6TD","closest_distance":65}

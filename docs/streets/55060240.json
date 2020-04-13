@@ -1,1 +1,1 @@
-{"id":"55060240","name":"Union Street","nodes":[{"type":"node","id":692734832,"lat":52.338738,"lon":-0.6456557},{"type":"node","id":1110875857,"lat":52.3385331,"lon":-0.6453519},{"type":"node","id":1110875925,"lat":52.3380309,"lon":-0.6445891}],"volunteer_postcode":"NN9 5ES"}
+{"id":"55060240","name":"Union Street","nodes":[{"type":"node","id":692734832,"lat":52.338738,"lon":-0.6456557},{"type":"node","id":1110875857,"lat":52.3385331,"lon":-0.6453519},{"type":"node","id":1110875925,"lat":52.3380309,"lon":-0.6445891}],"volunteer_postcode":"NN9 5ES","closest_distance":214}

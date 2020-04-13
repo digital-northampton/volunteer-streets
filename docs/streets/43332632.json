@@ -1,1 +1,1 @@
-{"id":"43332632","name":"Hodney Road","nodes":[{"type":"node","id":544695550,"lat":52.610451,"lon":-0.2068475},{"type":"node","id":544695565,"lat":52.6107141,"lon":-0.2063771},{"type":"node","id":544695607,"lat":52.6107862,"lon":-0.2063435}],"volunteer_postcode":"PE8 6QF"}
+{"id":"43332632","name":"Hodney Road","nodes":[{"type":"node","id":544695550,"lat":52.610451,"lon":-0.2068475},{"type":"node","id":544695565,"lat":52.6107141,"lon":-0.2063771},{"type":"node","id":544695607,"lat":52.6107862,"lon":-0.2063435}],"volunteer_postcode":"PE8 6QF","closest_distance":25363}

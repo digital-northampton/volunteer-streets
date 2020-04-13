@@ -1,1 +1,1 @@
-{"id":"90518818","name":"Harris Close","nodes":[{"type":"node","id":1050141864,"lat":52.3479127,"lon":-0.5358129},{"type":"node","id":1050141924,"lat":52.347868,"lon":-0.535808,"tags":{"highway":"turning_circle","source":"bing"}}],"volunteer_postcode":"NN9 6JR"}
+{"id":"90518818","name":"Harris Close","nodes":[{"type":"node","id":1050141864,"lat":52.3479127,"lon":-0.5358129},{"type":"node","id":1050141924,"lat":52.347868,"lon":-0.535808,"tags":{"highway":"turning_circle","source":"bing"}}],"volunteer_postcode":"NN9 6JR","closest_distance":390}

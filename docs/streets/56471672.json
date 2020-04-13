@@ -1,1 +1,1 @@
-{"id":"56471672","name":"Balcombe Place","nodes":[{"type":"node","id":708094171,"lat":52.4844067,"lon":-0.728167},{"type":"node","id":708094173,"lat":52.484187,"lon":-0.7279778},{"type":"node","id":708094177,"lat":52.4842572,"lon":-0.727443}],"volunteer_postcode":"NN18 0LX"}
+{"id":"56471672","name":"Balcombe Place","nodes":[{"type":"node","id":708094171,"lat":52.4844067,"lon":-0.728167},{"type":"node","id":708094173,"lat":52.484187,"lon":-0.7279778},{"type":"node","id":708094177,"lat":52.4842572,"lon":-0.727443}],"volunteer_postcode":"NN18 0LX","closest_distance":200}

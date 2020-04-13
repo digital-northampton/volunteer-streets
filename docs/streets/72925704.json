@@ -1,1 +1,1 @@
-{"id":"72925704","name":"Manor Way","nodes":[{"type":"node","id":865345217,"lat":52.3046352,"lon":-0.5911647},{"type":"node","id":865345245,"lat":52.3034947,"lon":-0.5916371},{"type":"node","id":865345311,"lat":52.3042655,"lon":-0.5913198}],"volunteer_postcode":"NN10 8HH"}
+{"id":"72925704","name":"Manor Way","nodes":[{"type":"node","id":865345217,"lat":52.3046352,"lon":-0.5911647},{"type":"node","id":865345245,"lat":52.3034947,"lon":-0.5916371},{"type":"node","id":865345311,"lat":52.3042655,"lon":-0.5913198}],"volunteer_postcode":"NN10 8HH","closest_distance":53}

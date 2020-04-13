@@ -1,1 +1,1 @@
-{"id":"54183743","name":"High Street","nodes":[{"type":"node","id":683448586,"lat":52.4281257,"lon":-0.9540158},{"type":"node","id":683448591,"lat":52.428493,"lon":-0.9543307},{"type":"node","id":4513940141,"lat":52.4284288,"lon":-0.9542435}],"volunteer_postcode":"LE16 9RX"}
+{"id":"54183743","name":"High Street","nodes":[{"type":"node","id":683448586,"lat":52.4281257,"lon":-0.9540158},{"type":"node","id":683448591,"lat":52.428493,"lon":-0.9543307},{"type":"node","id":4513940141,"lat":52.4284288,"lon":-0.9542435}],"volunteer_postcode":"LE16 9RX","closest_distance":452}

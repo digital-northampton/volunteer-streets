@@ -1,1 +1,1 @@
-{"id":"98097950","name":"Charnwood Road","nodes":[{"type":"node","id":1135280659,"lat":52.493377,"lon":-0.6968597},{"type":"node","id":1135280720,"lat":52.493181,"lon":-0.6964949},{"type":"node","id":1135280957,"lat":52.4933508,"lon":-0.6966022}],"volunteer_postcode":"NN17 1YR"}
+{"id":"98097950","name":"Charnwood Road","nodes":[{"type":"node","id":1135280659,"lat":52.493377,"lon":-0.6968597},{"type":"node","id":1135280720,"lat":52.493181,"lon":-0.6964949},{"type":"node","id":1135280957,"lat":52.4933508,"lon":-0.6966022}],"volunteer_postcode":"NN17 1YR","closest_distance":60}

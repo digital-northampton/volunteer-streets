@@ -1,1 +1,1 @@
-{"id":"47283037","name":"North Street","nodes":[{"type":"node","id":602385520,"lat":52.0674187,"lon":-1.3240375},{"type":"node","id":602385521,"lat":52.0672857,"lon":-1.3250829},{"type":"node","id":602385522,"lat":52.067134,"lon":-1.3262485}],"volunteer_postcode":"OX17 3RJ"}
+{"id":"47283037","name":"North Street","nodes":[{"type":"node","id":602385520,"lat":52.0674187,"lon":-1.3240375},{"type":"node","id":602385521,"lat":52.0672857,"lon":-1.3250829},{"type":"node","id":602385522,"lat":52.067134,"lon":-1.3262485}],"volunteer_postcode":"OX17 3RJ","closest_distance":7347}
