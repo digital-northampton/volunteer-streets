@@ -72,6 +72,8 @@ const setVolunteerStreets = () => {
 
         return acc
       }, [])
+
+      volunteers[index].streets = volunteers[index].streets.sort ((a, b) => (a.name.toLowerCase ().trim () > b.name.toLowerCase ().trim ()) ? 1 : -1)
     })
 
     const data = JSON.stringify (volunteers)
