@@ -2,6 +2,7 @@
 
 const fs = require ('fs')
 const path = require ('path')
+const deepmerge = require ('deepmerge');
 
 const volunteers_data_dir = "docs/volunteers/"
 const volunteer_data_path = "docs/volunteers.json"
@@ -24,14 +25,41 @@ const loadVolunteers = () => {
   })
 }
 
+const removeDuplicates = () => {
+  return new Promise ((resolve, reject) => {
+    const idPairs = []
+
+    volunteers.forEach ((volunteer, index) => {
+      const i = volunteers.findIndex (v => v.postcode.toLowerCase ().trim() == volunteer.postcode.toLowerCase ().trim())
+      if (i !== index && i !== -1) {
+        idPairs.push ([index, i])
+      }
+    })
+
+    console.log (volunteers.length + " volunteers")
+    console.log (idPairs.length + " duplicates")
+
+    idPairs.forEach (pair => {
+      volunteers[pair[0]] = deepmerge(volunteers[pair[0]], volunteers[pair[1]]);
+      volunteers[pair[1]] = false
+    })
+
+    volunteers = volunteers.filter (v => v !== false)
+
+    console.log (volunteers.length + " volunteers")
+
+    resolve ();
+  })
+}
+
 const setVolunteerStreets = () => {
   return new Promise ((resolve, reject) => {
-    volunteers.forEach ((volunter, index) => {
-      const filename = volunteers_data_dir + volunter.postcode.toUpperCase ().replace (" ", "-") + ".json"
+    volunteers.forEach ((volunteer, index) => {
+      const filename = volunteers_data_dir + volunteer.postcode.toUpperCase ().replace (" ", "-") + ".json"
       const rawdata = fs.readFileSync (filename)
-      const volunterData = JSON.parse (rawdata)
+      const volunteerData = JSON.parse (rawdata)
 
-      volunteers[index].streets = volunterData.streets.reduce ((acc, street) => {
+      volunteers[index].streets = volunteerData.streets.reduce ((acc, street) => {
         const index = acc.findIndex (s => s.name.toLowerCase ().trim() == street.name.toLowerCase ().trim())
         if (index == -1) {
           acc.push ({
@@ -54,6 +82,7 @@ const setVolunteerStreets = () => {
 }
 
 loadVolunteers ()
+  .then (removeDuplicates)
   .then (setVolunteerStreets)
   .then (() => console.log ("🔥"))
   .catch (e => console.log (e))
