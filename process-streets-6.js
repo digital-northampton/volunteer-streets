@@ -32,7 +32,7 @@ const setVolunteerStreets = () => {
       const volunterData = JSON.parse (rawdata)
 
       volunteers[index].streets = volunterData.streets.reduce ((acc, street) => {
-        const index = acc.findIndex (s => s.name == street.name)
+        const index = acc.findIndex (s => s.name.toLowerCase ().trim() == street.name.toLowerCase ().trim())
         if (index == -1) {
           acc.push ({
             ids: [street.id],
