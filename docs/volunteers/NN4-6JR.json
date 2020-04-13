@@ -1,1 +1,1 @@
-{"lat":"-0.888268","lng":"52.203729","postcode":"NN4 6JR","streets":[{"id":"158240787","name":"High Street"},{"id":"158240792","name":"Stratford Drive"},{"id":"50826360","name":"Grafton View"},{"id":"51182845","name":"Grafton View"}]}
+{"lat":"-0.888268","lng":"52.203729","postcode":"NN4 6JR","streets":[{"id":"158240787","name":"High Street","distance":28},{"id":"158240792","name":"Stratford Drive","distance":121},{"id":"50826360","name":"Grafton View","distance":127},{"id":"51182845","name":"Grafton View","distance":86}]}

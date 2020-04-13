@@ -1,1 +1,1 @@
-{"lat":"-0.540221","lng":"52.394256","postcode":"NN14 4JS","streets":[{"id":"35678960","name":"Grove Road"},{"id":"35679004","name":"Halford Street"},{"id":"98045999","name":"Osier Way"}]}
+{"lat":"-0.540221","lng":"52.394256","postcode":"NN14 4JS","streets":[{"id":"35678960","name":"Grove Road","distance":25},{"id":"35679004","name":"Halford Street","distance":85},{"id":"98045999","name":"Osier Way","distance":27}]}

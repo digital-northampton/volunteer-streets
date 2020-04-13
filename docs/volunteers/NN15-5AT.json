@@ -1,1 +1,1 @@
-{"lat":"-0.69729","lng":"52.390591","postcode":"NN15 5AT","streets":[{"id":"23699243","name":"St John's Road"},{"id":"23699575","name":"Glastonbury Close"},{"id":"23699665","name":"Welbeck Court"},{"id":"24321328","name":"Gleneagles Close"}]}
+{"lat":"-0.69729","lng":"52.390591","postcode":"NN15 5AT","streets":[{"id":"23699243","name":"St John's Road","distance":30},{"id":"23699575","name":"Glastonbury Close","distance":55},{"id":"23699665","name":"Welbeck Court","distance":137},{"id":"24321328","name":"Gleneagles Close","distance":30}]}

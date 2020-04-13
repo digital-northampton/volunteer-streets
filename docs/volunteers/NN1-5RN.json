@@ -1,1 +1,1 @@
-{"lat":"-0.857223","lng":"52.23713","postcode":"NN1 5RN","streets":[{"id":"193169451","name":"Priory Close"},{"id":"30979640","name":"Cheriton Way"},{"id":"31118237","name":"Tanfield Lane"},{"id":"31118238","name":"Tanfield Lane"}]}
+{"lat":"-0.857223","lng":"52.23713","postcode":"NN1 5RN","streets":[{"id":"193169451","name":"Priory Close","distance":322},{"id":"30979640","name":"Cheriton Way","distance":227},{"id":"31118237","name":"Tanfield Lane","distance":57},{"id":"31118238","name":"Tanfield Lane","distance":159}]}

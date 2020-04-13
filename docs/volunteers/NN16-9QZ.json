@@ -1,1 +1,1 @@
-{"lat":"-0.724786","lng":"52.411938","postcode":"NN16 9QZ","streets":[{"id":"24452870","name":"Britannia Road"},{"id":"24452873","name":"Beatrice Road"},{"id":"24452874","name":"Shakespeare Road"}]}
+{"lat":"-0.724786","lng":"52.411938","postcode":"NN16 9QZ","streets":[{"id":"24452870","name":"Britannia Road","distance":70},{"id":"24452873","name":"Beatrice Road","distance":47},{"id":"24452874","name":"Shakespeare Road","distance":47}]}

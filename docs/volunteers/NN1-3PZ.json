@@ -1,1 +1,1 @@
-{"lat":"-0.887789","lng":"52.246373","postcode":"NN1 3PZ","streets":[{"id":"56996074","name":"Hunter Street"},{"id":"56996082","name":"Hunter Street"},{"id":"56996083","name":"Colwyn Road"}]}
+{"lat":"-0.887789","lng":"52.246373","postcode":"NN1 3PZ","streets":[{"id":"56996074","name":"Hunter Street","distance":97},{"id":"56996082","name":"Hunter Street","distance":227},{"id":"56996083","name":"Colwyn Road","distance":72}]}

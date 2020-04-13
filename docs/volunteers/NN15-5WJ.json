@@ -1,1 +1,1 @@
-{"lat":"-0.674507","lng":"52.358844","postcode":"NN15 5WJ","streets":[{"id":"455394940","name":"Mallory Way"},{"id":"455394941","name":"Thruxton Close"},{"id":"455394946","name":"Croft Close"},{"id":"455394950","name":"Donnington Road"}]}
+{"lat":"-0.674507","lng":"52.358844","postcode":"NN15 5WJ","streets":[{"id":"455394940","name":"Mallory Way","distance":95},{"id":"455394941","name":"Thruxton Close","distance":107},{"id":"455394946","name":"Croft Close","distance":19},{"id":"455394950","name":"Donnington Road","distance":47}]}

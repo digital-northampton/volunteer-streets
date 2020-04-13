@@ -1,1 +1,1 @@
-{"lat":"-0.725121","lng":"52.481889","postcode":"NN18 0HZ","streets":[{"id":"56435118","name":"Farmstead Road"},{"id":"56471356","name":"Ashurst Crescent"},{"id":"56471703","name":"Arundel Walk"}]}
+{"lat":"-0.725121","lng":"52.481889","postcode":"NN18 0HZ","streets":[{"id":"56435118","name":"Farmstead Road","distance":50},{"id":"56471356","name":"Ashurst Crescent","distance":77},{"id":"56471703","name":"Arundel Walk","distance":161}]}

@@ -1,1 +1,1 @@
-{"lat":"-0.677325","lng":"52.288522","postcode":"NN8 2EE","streets":[{"id":"86350427","name":"Daniels Road"},{"id":"86350428","name":"Newtown Road"},{"id":"86350429","name":"Milton Road"}]}
+{"lat":"-0.677325","lng":"52.288522","postcode":"NN8 2EE","streets":[{"id":"86350427","name":"Daniels Road","distance":20},{"id":"86350428","name":"Newtown Road","distance":20},{"id":"86350429","name":"Milton Road","distance":125}]}

@@ -1,1 +1,1 @@
-{"lat":"-0.95295","lng":"52.103911","postcode":"NN12 7GB","streets":[{"id":"30165415","name":"Kings Lane"},{"id":"4378004","name":"Kings Lane"},{"id":"503037120","name":"Vine End"},{"id":"8708345","name":"Newbolt Close"}]}
+{"lat":"-0.95295","lng":"52.103911","postcode":"NN12 7GB","streets":[{"id":"30165415","name":"Kings Lane","distance":1405},{"id":"4378004","name":"Kings Lane","distance":1396},{"id":"503037120","name":"Vine End","distance":30},{"id":"8708345","name":"Newbolt Close","distance":110}]}

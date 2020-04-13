@@ -1,1 +1,1 @@
-{"lat":"-0.890498","lng":"52.254637","postcode":"NN2 6JN","streets":[{"id":"56666731","name":"Murray Avenue"},{"id":"89878023","name":"Trinity Avenue"},{"id":"89879714","name":"Fairway"}]}
+{"lat":"-0.890498","lng":"52.254637","postcode":"NN2 6JN","streets":[{"id":"56666731","name":"Murray Avenue","distance":111},{"id":"89878023","name":"Trinity Avenue","distance":23},{"id":"89879714","name":"Fairway","distance":237}]}

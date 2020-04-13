@@ -1,1 +1,1 @@
-{"lat":"-0.87813","lng":"52.234992","postcode":"NN1 5HN","streets":[{"id":"58562168","name":"The Nurseries"},{"id":"59416864","name":"Riverside Way"}]}
+{"lat":"-0.87813","lng":"52.234992","postcode":"NN1 5HN","streets":[{"id":"58562168","name":"The Nurseries","distance":15},{"id":"59416864","name":"Riverside Way","distance":330}]}

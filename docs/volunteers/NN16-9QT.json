@@ -1,1 +1,1 @@
-{"lat":"-0.725641","lng":"52.410347","postcode":"NN16 9QT","streets":[{"id":"24452436","name":"Park View"},{"id":"24452872","name":"Reservoir Road"},{"id":"95696477","name":"Clover Gardens"}]}
+{"lat":"-0.725641","lng":"52.410347","postcode":"NN16 9QT","streets":[{"id":"24452436","name":"Park View","distance":185},{"id":"24452872","name":"Reservoir Road","distance":12},{"id":"95696477","name":"Clover Gardens","distance":99}]}

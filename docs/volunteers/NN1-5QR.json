@@ -1,1 +1,1 @@
-{"lat":"-0.88671","lng":"52.239138","postcode":"NN1 5QR","streets":[{"id":"54200696","name":"Denmark Road"},{"id":"54200698","name":"Thenford Street"},{"id":"58494364","name":"St Edmund's Road"},{"id":"58501702","name":"Alexandra Road"}]}
+{"lat":"-0.88671","lng":"52.239138","postcode":"NN1 5QR","streets":[{"id":"54200696","name":"Denmark Road","distance":56},{"id":"54200698","name":"Thenford Street","distance":56},{"id":"58494364","name":"St Edmund's Road","distance":63},{"id":"58501702","name":"Alexandra Road","distance":111}]}

@@ -1,1 +1,1 @@
-{"lat":"-0.906451","lng":"52.226654","postcode":"NN4 8EY","streets":[{"id":"83652678","name":"Abbey Road"},{"id":"83653348","name":"Thirlestane Road"},{"id":"83653441","name":"Delapre Street"},{"id":"83653518","name":"Clinton Road"}]}
+{"lat":"-0.906451","lng":"52.226654","postcode":"NN4 8EY","streets":[{"id":"83652678","name":"Abbey Road","distance":26},{"id":"83653348","name":"Thirlestane Road","distance":95},{"id":"83653441","name":"Delapre Street","distance":26},{"id":"83653518","name":"Clinton Road","distance":24}]}
