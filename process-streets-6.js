@@ -64,10 +64,14 @@ const setVolunteerStreets = () => {
         if (index == -1) {
           acc.push ({
             ids: [street.id],
-            name: street.name
+            name: street.name,
+            distance: street.distance
           })
         } else {
           acc[index].ids.push (street.id)
+          if (street.distance < acc[index].distance) {
+            acc[index].distance = street.distance
+          }
         }
 
         return acc
