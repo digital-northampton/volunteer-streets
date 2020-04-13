@@ -3,9 +3,9 @@
 const fs = require ('fs')
 const path = require ('path')
 
-const street_data_dir = "data/streets/"
-const volunteers_data_dir = "data/volunteers/"
-const volunteer_data_path = "data/volunteers.json"
+const street_data_dir = "docs/streets/"
+const volunteers_data_dir = "docs/volunteers/"
+const volunteer_data_path = "docs/volunteers.json"
 
 let ids
 let volunteers
@@ -40,7 +40,11 @@ const setVolunteerPostcodes = () => {
         const rawdata = fs.readFileSync (filename)
         const street = JSON.parse (rawdata)
         if (street.volunteer_postcode == v.postcode) {
-          streets.push ({id:street.id, name:street.name})
+          streets.push ({
+            id:street.id,
+            name:street.name,
+            distance: street.closest_distance
+          })
         }
       })
 
