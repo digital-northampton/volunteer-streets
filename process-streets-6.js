@@ -31,7 +31,19 @@ const setVolunteerStreets = () => {
       const rawdata = fs.readFileSync (filename)
       const volunterData = JSON.parse (rawdata)
 
-      volunteers[index].streets = volunterData.streets.map (s => s.name).unique ().sort ()
+      volunteers[index].streets = volunterData.streets.reduce ((acc, street) => {
+        const index = acc.findIndex (s => s.name == street.name)
+        if (index == -1) {
+          acc.push ({
+            ids: [street.id],
+            name: street.name
+          })
+        } else {
+          acc[index].ids.push (street.id)
+        }
+
+        return acc
+      }, [])
     })
 
     const data = JSON.stringify (volunteers)
