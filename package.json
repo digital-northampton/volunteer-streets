@@ -20,7 +20,7 @@
     "deepmerge": "^4.2.2",
     "neat-csv": "^5.2.0",
     "serve": "^11.3.0",
-    "underscore": "^1.10.2",
+    "underscore": "^1.12.1",
     "xml2json": "^0.12.0"
   }
 }
